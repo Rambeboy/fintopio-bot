@@ -105,7 +105,10 @@ Invite more friends for 10% bonus HP) join and claim join reward
 
 13. Now back to the `fintopio-bot` folder
 
-14. To start the app open your `Command Prompt` or `Power Shell` again and run `node app/index.js`.
+14. To start the app open your `Command Prompt` or `Power Shell` again and run
+    ```bash
+    node app/index.js
+    ```
 
 ## Update Bot
 
