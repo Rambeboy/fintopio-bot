@@ -32,11 +32,8 @@ Airdop wallet, its usually jackpot
 ## Prerequisite
 
 - Git
-
 - Node JS
-
 - TELEGRAM APP_ID & TELEGRAM APP_HASH Get it from [Here](https://my.telegram.org/auth?to=apps) (REQUIRED IF YOU WANT USE SESSIONS)
-
 - Fintopio Account , Create [Here](https://fintop.io/2uLXyDu5Hi)
 Let's earn $HOLD together 
 Join me in farming HP points now 
