@@ -1,10 +1,13 @@
 ## FINTOPIO MINING BOT
 
+![fintopio](assets/img1.jpg)
 
 ## Fintopio Airdrop
 
-New Airdrops : Fintopio
+**New Airdrops : Fintopio**
+
 Register : [Register Here](https://fintop.io/2uLXyDu5Hi)
+
 Let's earn $HOLD together 
 Join me in farming HP points now 
 Invite more friends for 10% bonus HP 
@@ -78,35 +81,34 @@ Invite more friends for 10% bonus HP) join and claim join reward
 1. Open your `Command Prompt` or `Power Shell`.
 
 2. Clone project repository
-  
    ```bash
    git clone https://github.com/Rambeboy/fintopio-bot.git && cd fintopio-bot
    ```
 
-3. Install dependencies
+4. Install dependencies
    ```bash
    npm install && npm i telegram@2.22.2
    ```
 
-4. Navigate to `fintopio-bot` directory. 
+5. Navigate to `fintopio-bot` directory. 
 
-5. Make new folder named `accounts`.
+6. Make new folder named `accounts`.
 
-6. Manual copy the `config` folder to `/app` folder. 
+7. Manual copy the `config` folder to `/app` folder. 
 
-7. Navigate to `app/` folder and paste the the `config` folder before.
+8. Navigate to `app/` folder and paste the the `config` folder before.
 
-8. Navigate to `config` folder.
+9. Navigate to `config` folder.
 
-9. At `/app/config/` folder, rename the `config_tmp.js` to `config.js` also the `proxy_list_tmp.js` to `proxy_list.js`.
+10. At `/app/config/` folder, rename the `config_tmp.js` to `config.js` also the `proxy_list_tmp.js` to `proxy_list.js`.
 
-10. To configure the app, open `config.js` and add your telegram app id and hash there.
+11. To configure the app, open `config.js` and add your telegram app id and hash there.
 
-11. To configure the Proxy, open `proxy_list.js` and add your proxy list there, it currently only support https proxy.
+12. To configure the Proxy, open `proxy_list.js` and add your proxy list there, it currently only support https proxy.
 
-12. Now back to the `fintopio-bot` folder
+13. Now back to the `fintopio-bot` folder
 
-13. To start the app open your `Command Prompt` or `Power Shell` again and run `node app/index.js`.
+14. To start the app open your `Command Prompt` or `Power Shell` again and run `node app/index.js`.
 
 ## Update Bot
 
@@ -142,7 +144,7 @@ To update bot follow this step :
 
 4. `Session` Type
 
--  Enter Account Name
+- Enter Account Name
 
 - Enter your phone number starting with countrycode ex : `+628xxxxxxxx`
 
