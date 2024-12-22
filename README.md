@@ -2,10 +2,6 @@
 
 ![fintopio](assets/img1.jpg)
 
-## Fintopio Airdrop
-
-**New Airdrops : Fintopio**
-
 Register : [Register Here](https://fintop.io/2uLXyDu5Hi)
 
 Let's earn $HOLD together 
@@ -14,11 +10,11 @@ Invite more friends for 10% bonus HP
 Let's earn $HOLD together 
 Join me in farming HP points now 
 Invite more friends for 10% bonus HP 
-Let's get Rich together
+Let's get Rich together.
 
-Airdop wallet, its usually jackpot
+Airdop wallet, its usually jackpot.
 
-## Feature
+## BOT FEATURE
 
 - Multi Account With Proxy Support
 - Support Telegram Sessions and Telegram Query (Query May Expired)
@@ -29,7 +25,7 @@ Airdop wallet, its usually jackpot
 - Auto Claim Mission Reward
 - Auto Break And Claim Diamond Reward
 
-## Prerequisite
+## PREREQUISITE
 
 - Git
 - Node JS
@@ -39,9 +35,9 @@ Let's earn $HOLD together
 Join me in farming HP points now 
 Invite more friends for 10% bonus HP) join and claim join reward
 
-## Setup & Configure BOT
+## SETUP & CONFIGURE BOT
 
-### Linux
+### LINUX
 
 1. Clone project repository
   
@@ -61,19 +57,27 @@ Invite more friends for 10% bonus HP) join and claim join reward
 
 4. Run
    ```bash
-   cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp config/proxy_list.js
+   cp -r config/config_tmp.js config/config.js && cp -r config/proxy_list_tmp config/proxy_list.js
    ```
 
-5. (If You Use Telegram Sessions) To configure the app, run `nano config/config.js` and add your telegram app id and hash there.
+5. (If You Use Telegram Sessions) To configure the app, run
+   ```bash
+   nano config/config.js
+   ```
+   And add your telegram app id and hash there.
 
-6. (If You Use Proxy) To configure the Proxy, run `nano config/proxy_list.js` and add your proxy list there, it currently only support https proxy.
+7. (If You Use Proxy) To configure the Proxy, run
+   ```bash
+   nano config/proxy_list.js
+   ```
+   And add your proxy list there, it currently only support https proxy.
  
-8. To start the app run
+9. To start the app, run
    ```bash
    npm run start
    ```
    
-### Windows
+### WINDOWS
 
 1. Open your `Command Prompt` or `Power Shell`.
 
@@ -107,10 +111,10 @@ Invite more friends for 10% bonus HP) join and claim join reward
 
 14. To start the app open your `Command Prompt` or `Power Shell` again and run
     ```bash
-    node app/index.js
+    npm run start
     ```
 
-## Update Bot
+## UPDATE BOT
 
 To update bot follow this step :
 
@@ -134,7 +138,7 @@ To update bot follow this step :
 
 3. Start the bot
 
-## Setup Accounts
+## SETUP ACCOUNTS
 
 1. Run bot `npm run start`
 
@@ -163,25 +167,25 @@ To update bot follow this step :
 - After bot started choose option 3 start bot
    
 
-## Session Troubleshoot
+## SESSION TROUBLESHOOT
 
 If you asked to enter phone number again after sessions creation, it mean session not initialized correctly, try to delete the created sessions. 
 
 Example Case
-- example you already have 1 session (sessionA) and all good when you run bot. After that you create another session, but when you run bot, the bot asked to enter phone number again, so the problem is on (sessionB), to fix it just remove the `accounts/sessionB` folder and re create it or just delete all folder inside `accounts` directory with prefix `sessions-`.
+- Example you already have 1 session (sessionA) and all good when you run bot. After that you create another session, but when you run bot, the bot asked to enter phone number again, so the problem is on (sessionB), to fix it just remove the `accounts/sessionB` folder and re create it or just delete all folder inside `accounts` directory with prefix `sessions-`.
 
-## Query Troubleshoot
+## QUERY TROUBLESHOOT
 
 If your bot get eror, with some error code `401` it mean your query expired, go get new query and run bot again and choose option `4` for query modification. 
 
-## Note
+## NOTE
 
 Don't use bot with `session` type if you using telegram account that bought from someone because it can make your telegram account deleted. instead of using `session` type, use `query` type.
 
 This bot can use Telegram Query and Telegram Sessions. if you want to use sessions, and ever use one of my bot that use telegram sessions, you can just copy the sessions folder to this bot. Also for the telegram APP ID and Hash you can use it on another bot. If you want to use Telegram Query, get your query manually.
 
-if you got error `Invalid ConstructorId` try to run this ```npm i telegram@2.22.2```
+If you got error `Invalid ConstructorId` try to run this ```npm i telegram@2.22.2```.
 
-## License
+## LICENSE
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
