@@ -57,7 +57,7 @@ Invite more friends for 10% bonus HP) join and claim join reward
 
 4. Run
    ```bash
-   cp -r config/config_tmp.js config/config.js && cp -r config/proxy_list_tmp config/proxy_list.js
+   cp -r config/config_tmp.js config/config.js && cp -r config/proxy_list_tmp.js config/proxy_list.js
    ```
 
 5. (If You Use Telegram Sessions) To configure the app, run
@@ -172,7 +172,7 @@ To update bot follow this step :
 If you asked to enter phone number again after sessions creation, it mean session not initialized correctly, try to delete the created sessions. 
 
 Example Case
-- Example you already have 1 session (sessionA) and all good when you run bot. After that you create another session, but when you run bot, the bot asked to enter phone number again, so the problem is on (sessionB), to fix it just remove the `accounts/sessionB` folder and re create it or just delete all folder inside `accounts` directory with prefix `sessions-`.
+- Example you already have 1 session (sessionA) and all good when you run bot. After that you create another session, but when you run bot, the bot asked to enter phone number again, so the problem is on (sessionB), to fix it just remove the `accounts/sessionB` folder and re create it or just delete all folder inside `accounts` directory with prefix `sessions-`
 
 ## QUERY TROUBLESHOOT
 
@@ -184,7 +184,7 @@ Don't use bot with `session` type if you using telegram account that bought from
 
 This bot can use Telegram Query and Telegram Sessions. if you want to use sessions, and ever use one of my bot that use telegram sessions, you can just copy the sessions folder to this bot. Also for the telegram APP ID and Hash you can use it on another bot. If you want to use Telegram Query, get your query manually.
 
-If you got error `Invalid ConstructorId` try to run this ```npm i telegram@2.22.2```.
+If you got error `Invalid ConstructorId` try to run this ```npm i telegram@2.22.2```
 
 ## LICENSE
 
