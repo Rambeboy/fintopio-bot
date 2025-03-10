@@ -50,7 +50,7 @@ Invite more friends for 10% bonus HP) join and claim join reward
    npm install && npm i telegram@2.22.2 && npm run setup
    ```
 
-3. Make new accounts folder
+3. Make new your folder
    ```bash
    mkdir -p accounts
    ```
