@@ -1,1 +1,36 @@
-const _0x4456e9=_0x3b2d;(function(_0x444bff,_0x14a5af){const _0x254482=_0x3b2d,_0x389853=_0x444bff();while(!![]){try{const _0x5a5f46=-parseInt(_0x254482(0x1a2))/0x1*(parseInt(_0x254482(0x186))/0x2)+parseInt(_0x254482(0x18c))/0x3*(-parseInt(_0x254482(0x194))/0x4)+-parseInt(_0x254482(0x198))/0x5*(-parseInt(_0x254482(0x18a))/0x6)+parseInt(_0x254482(0x18e))/0x7+parseInt(_0x254482(0x19b))/0x8*(parseInt(_0x254482(0x1a0))/0x9)+-parseInt(_0x254482(0x195))/0xa+-parseInt(_0x254482(0x196))/0xb*(-parseInt(_0x254482(0x18f))/0xc);if(_0x5a5f46===_0x14a5af)break;else _0x389853['push'](_0x389853['shift']());}catch(_0x1ac04d){_0x389853['push'](_0x389853['shift']());}}}(_0x2d71,0xad106));import{Twisters}from'twisters';function _0x3b2d(_0x46be3e,_0x4f546e){const _0x2d7176=_0x2d71();return _0x3b2d=function(_0x3b2d02,_0x587528){_0x3b2d02=_0x3b2d02-0x186;let _0x25ea7d=_0x2d7176[_0x3b2d02];return _0x25ea7d;},_0x3b2d(_0x46be3e,_0x4f546e);}import{Helper}from'./helper.js';import _0x43ef6a from'./logger.js';function _0x2d71(){const _0x35822a=['5760797RmWeHc','12EZURpH','firstName','\x0a==============================================\x0aInfo\x20:\x20','lastName','clearInfo','1083844fLTtQy','1393780LrypbP','4531351ntUsrr','msToTime','50apOyjq','now','twisters','179032IcRWrs','clear','\x0a==============\x20Account\x20','log','info','171SQbQwL','\x0aDelay\x20\x20:\x20','715854OiWzOx','\x20-\x20','2fiQyOI','\x0aHold\x20Balance\x20:\x20','\x0a\x0aStatus\x20:\x20','put','104970JmgUfQ','\x0aFarming\x20\x20\x20\x20\x20\x20:\x20','3RWAMTE','\x0a=============================================='];_0x2d71=function(){return _0x35822a;};return _0x2d71();}import{Fintopio}from'../core/fintopio.js';class Twist{constructor(){const _0x51fad4=_0x3b2d;this[_0x51fad4(0x19a)]=new Twisters();}[_0x4456e9(0x19e)](_0x30765e='',_0x14ba26='',_0x4548b6=new Fintopio(),_0x2f8c39){const _0x4006ea=_0x4456e9;_0x2f8c39==undefined&&(_0x43ef6a[_0x4006ea(0x19f)](_0x14ba26['id']+_0x4006ea(0x1a3)+_0x30765e),_0x2f8c39='-');const _0x44ef18=_0x4548b6['user']??{},_0xeb1deb=_0x44ef18['balance']??'-',_0x242108=_0x4548b6['farming']??{},_0x5d64c0=_0x242108['timings']??{},_0x2399ba=_0x5d64c0['finish']??'-';this[_0x4006ea(0x19a)][_0x4006ea(0x189)](_0x14ba26['id'],{'text':_0x4006ea(0x19d)+_0x14ba26['id']+'\x20==============\x0aName\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20'+(_0x14ba26[_0x4006ea(0x190)]??'Unamed')+'\x20'+_0x14ba26[_0x4006ea(0x192)]+_0x4006ea(0x187)+_0xeb1deb+_0x4006ea(0x18b)+(_0x2399ba!='-'?Helper[_0x4006ea(0x197)](_0x2399ba-Date[_0x4006ea(0x199)]()):_0x2399ba)+_0x4006ea(0x188)+_0x30765e+_0x4006ea(0x1a1)+_0x2f8c39+_0x4006ea(0x18d)});}[_0x4456e9(0x19f)](_0x12ff23=''){const _0x2d8928=_0x4456e9;this[_0x2d8928(0x19a)][_0x2d8928(0x189)](0x2,{'text':_0x2d8928(0x191)+_0x12ff23+_0x2d8928(0x18d)});return;}[_0x4456e9(0x193)](){const _0x4f1063=_0x4456e9;this[_0x4f1063(0x19a)]['remove'](0x2);}[_0x4456e9(0x19c)](_0x1117d2){const _0x10233d=_0x4456e9;this[_0x10233d(0x19a)]['remove'](_0x1117d2);}}export default new Twist();
+import { Twisters } from 'twisters';
+import { Helper } from './helper.js';
+import _0x43ef6a from './logger.js';
+import { Fintopio } from '../core/fintopio.js';
+class Twist {
+  constructor() {
+    this.twisters = new Twisters();
+  }
+  ["log"](_0x30765e = '', _0x14ba26 = '', _0x4548b6 = new Fintopio(), _0x2f8c39) {
+    if (_0x2f8c39 == undefined) {
+      _0x43ef6a.info(_0x14ba26.id + " - " + _0x30765e);
+      _0x2f8c39 = '-';
+    }
+    const _0x44ef18 = _0x4548b6.user ?? {};
+    const _0xeb1deb = _0x44ef18.balance ?? '-';
+    const _0x242108 = _0x4548b6.farming ?? {};
+    const _0x5d64c0 = _0x242108.timings ?? {};
+    const _0x2399ba = _0x5d64c0.finish ?? '-';
+    this.twisters.put(_0x14ba26.id, {
+      'text': "\n============= Account " + _0x14ba26.id + " =============\nName         : " + (_0x14ba26.firstName ?? 'Unamed') + " " + _0x14ba26.lastName + "\nHold Balance : " + _0xeb1deb + "\nFarming      : " + (_0x2399ba != '-' ? Helper.msToTime(_0x2399ba - Date.now()) : _0x2399ba) + "\n\nStatus : " + _0x30765e + "\nDelay  : " + _0x2f8c39 + "\n=============================================="
+    });
+  }
+  ["info"](_0x12ff23 = '') {
+    this.twisters.put(0x2, {
+      'text': "\n==============================================\nInfo : " + _0x12ff23 + "\n=============================================="
+    });
+    return;
+  }
+  ["clearInfo"]() {
+    this.twisters.remove(0x2);
+  }
+  ["clear"](_0x1117d2) {
+    this.twisters.remove(_0x1117d2);
+  }
+}
+export default new Twist();
