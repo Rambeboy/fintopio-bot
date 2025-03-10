@@ -36,7 +36,6 @@ Join me in farming HP points now
 Invite more friends for 10% bonus HP) join and claim join reward
 
 ## SETUP & CONFIGURE BOT
-
 ### LINUX
 
 1. Clone project repository
@@ -50,23 +49,19 @@ Invite more friends for 10% bonus HP) join and claim join reward
    npm install && npm i telegram@2.22.2 && npm run setup
    ```
 
-3. Make new your folder
-   ```bash
-   mkdir -p accounts && mkdir -p app/config
-   ```
-4. Configure the bot config
+3. Configure the bot config
    ```bash
    nano config/config.js
    ```
    And add your telegram app id and hash there.
 
-5. (If You Use Proxy) To configure the Proxy, run
+4. (If You Use Proxy) To configure the Proxy, run
    ```bash
    nano config/proxy_list.js
    ```
    And add your proxy list there, it currently only support https proxy.
  
-6. To start the app, run
+5. To start the app, run
    ```bash
    npm run start
    ```
