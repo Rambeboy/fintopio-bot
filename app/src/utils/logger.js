@@ -1,57 +1,68 @@
-import { createLogger, format, transports } from "winston";
-import fs from "fs";
-const { combine, timestamp, printf, colorize } = format;
+import { Twisters } from "twisters";
+import { Helper } from "./helper.js";
+import logger from "./logger.js";
+import { Fintopio } from "../core/fintopio.js";
 
-const customFormat = printf(({ level, message, timestamp }) => {
-  return `${timestamp} [${level}]: ${message}`;
-});
-
-class Logger {
+class Twist {
   constructor() {
-    this.logger = createLogger({
-      level: "debug",
-      format: combine(
-        timestamp({
-          format: "YYYY-MM-DD HH:mm:ss",
-        }),
-        colorize(),
-        customFormat
-      ),
-      transports: [new transports.File({ filename: "log/app.log" })],
-      exceptionHandlers: [new transports.File({ filename: "log/app.log" })],
-      rejectionHandlers: [new transports.File({ filename: "log/app.log" })],
-    });
+    /** @type  {Twisters}*/
+    this.twisters = new Twisters();
   }
 
-  info(message) {
-    this.logger.info(message);
-  }
+  /**
+   * @param {string} acc
+   * @param {Fintopio} fintopio
+   * @param {string} msg
+   * @param {string} delay
+   */
+  log(msg = "", acc = "", fintopio = new Fintopio(), delay) {
+    // console.log(acc);
+    if (delay == undefined) {
+      logger.info(`${acc.id} - ${msg}`);
+      delay = "-";
+    }
 
-  warn(message) {
-    this.logger.warn(message);
-  }
+    const profile = fintopio.user ?? {};
+    const balance = profile.balance ?? "-";
+    const farming = fintopio.farming ?? {};
+    const farmingTime = farming.timings ?? {};
+    const farmEndTime = farmingTime.finish ?? "-";
 
-  error(message) {
-    this.logger.error(message);
-  }
-
-  debug(message) {
-    this.logger.debug(message);
-  }
-
-  setLevel(level) {
-    this.logger.level = level;
-  }
-
-  clear() {
-    fs.truncate("log/app.log", 0, (err) => {
-      if (err) {
-        this.logger.error("Failed to clear the log file: " + err.message);
-      } else {
-        this.logger.info("Log file cleared");
+    this.twisters.put(acc.id, {
+      text: `
+============== Account ${acc.id} ==============
+Name         : ${acc.firstName ?? "Unamed"} ${acc.lastName}
+Hold Balance : ${balance}
+Farming      : ${
+        farmEndTime != "-"
+          ? Helper.msToTime(farmEndTime - Date.now())
+          : farmEndTime
       }
+
+Status : ${msg}
+Delay  : ${delay}
+==============================================`,
     });
+  }
+  /**
+   * @param {string} msg
+   */
+  info(msg = "") {
+    this.twisters.put(2, {
+      text: `
+==============================================
+Info : ${msg}
+==============================================`,
+    });
+    return;
+  }
+
+  clearInfo() {
+    this.twisters.remove(2);
+  }
+
+  clear(acc) {
+    this.twisters.remove(acc);
   }
 }
-
-export default new Logger();
+export default new Twist();
