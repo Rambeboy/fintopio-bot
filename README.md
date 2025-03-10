@@ -47,73 +47,26 @@ Invite more friends for 10% bonus HP) join and claim join reward
 
 2. Install dependencies
    ```bash
-   npm install && npm i telegram@2.22.2
+   npm install && npm i telegram@2.22.2 && npm run setup
    ```
-
-3. Run
+   
+3. Configure your accounts
    ```bash
-   mkdir -p accounts && mkdir -p app/config
-   ```
-
-4. Run
-   ```bash
-   cp -r config/config_tmp.js config/config.js && cp -r config/proxy_list_tmp.js config/proxy_list.js
-   ```
-
-5. (If You Use Telegram Sessions) To configure the app, run
-   ```bash
-   nano config/config.js
+   nano accounts/accounts.js
    ```
    And add your telegram app id and hash there.
 
-7. (If You Use Proxy) To configure the Proxy, run
+4. (If You Use Proxy) To configure the Proxy, run
    ```bash
    nano config/proxy_list.js
    ```
    And add your proxy list there, it currently only support https proxy.
  
-9. To start the app, run
+5. To start the app, run
    ```bash
    npm run start
    ```
    
-### WINDOWS
-
-1. Open your `Command Prompt` or `Power Shell`.
-
-2. Clone project repository
-   ```bash
-   git clone https://github.com/Rambeboy/fintopio-bot.git && cd fintopio-bot
-   ```
-
-4. Install dependencies
-   ```bash
-   npm install && npm i telegram@2.22.2
-   ```
-
-5. Navigate to `fintopio-bot` directory. 
-
-6. Make new folder named `accounts`.
-
-7. Manual copy the `config` folder to `/app` folder. 
-
-8. Navigate to `app/` folder and paste the the `config` folder before.
-
-9. Navigate to `config` folder.
-
-10. At `/app/config/` folder, rename the `config_tmp.js` to `config.js` also the `proxy_list_tmp.js` to `proxy_list.js`.
-
-11. To configure the app, open `config.js` and add your telegram app id and hash there.
-
-12. To configure the Proxy, open `proxy_list.js` and add your proxy list there, it currently only support https proxy.
-
-13. Now back to the `fintopio-bot` folder
-
-14. To start the app open your `Command Prompt` or `Power Shell` again and run
-    ```bash
-    npm run start
-    ```
-
 ## UPDATE BOT
 
 To update bot follow this step :
