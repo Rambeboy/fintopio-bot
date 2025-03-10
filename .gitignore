@@ -1,6 +1,4 @@
 node_modules
-accounts/accounts.js
-app/accounts/*
 app/config/*
 log/*
 test.js
