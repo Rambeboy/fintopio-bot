@@ -1,1 +1,101 @@
-const _0x48c62c=_0xa7d2;(function(_0x18dffb,_0x2a6724){const _0x1f4d61=_0xa7d2,_0x2f906a=_0x18dffb();while(!![]){try{const _0xa3bb15=-parseInt(_0x1f4d61(0x165))/0x1+parseInt(_0x1f4d61(0x192))/0x2*(parseInt(_0x1f4d61(0x169))/0x3)+parseInt(_0x1f4d61(0x1a5))/0x4+parseInt(_0x1f4d61(0x19d))/0x5+-parseInt(_0x1f4d61(0x184))/0x6+parseInt(_0x1f4d61(0x166))/0x7*(-parseInt(_0x1f4d61(0x1a0))/0x8)+-parseInt(_0x1f4d61(0x17b))/0x9*(parseInt(_0x1f4d61(0x171))/0xa);if(_0xa3bb15===_0x2a6724)break;else _0x2f906a['push'](_0x2f906a['shift']());}catch(_0x2cf7e9){_0x2f906a['push'](_0x2f906a['shift']());}}}(_0x452c,0x237df));import _0x21ffdc from'input';function _0xa7d2(_0x3ef5ba,_0x210414){const _0x452c4f=_0x452c();return _0xa7d2=function(_0xa7d2af,_0x29151e){_0xa7d2af=_0xa7d2af-0x15b;let _0x4479f4=_0x452c4f[_0xa7d2af];return _0x4479f4;},_0xa7d2(_0x3ef5ba,_0x210414);}import{Helper}from'../utils/helper.js';import{Api,TelegramClient}from'telegram';function _0x452c(){const _0x279e1e=['accounts','accountType','log','message','2457010KZvSnH','exit','disconnect','invoke','<empty>','stringify','query','messages','storeSession','\x20-\x20Created,\x20Please\x20Restart\x20The\x20Bot\x20Again','9MifppP','getQueryFromUrl','bot','InputBotAppShortName','init','Welcome\x20to\x20Fintopio\x20Mining\x20Bot\x20\x0aBy\x20:\x20Nofan\x20Rambe\x20\x0a\x20\x0aLet\x27s\x20getting\x20started.\x0a\x0aYour\x20Session\x20List:\x0a','session','createDir','\x0a\x20\x0aPlease\x20Choose\x20a\x20menu:\x20\x0a','178908OEdUYp','sessionCreation','accounts/','\x0a\x20\x0aAvailable\x20Account\x20Type:\x20\x0a1.\x20Session\x20\x0a2.\x20Query\x0a\x20\x0aPlease\x20Entery\x20Your\x20Choice\x20:\x20','Enter\x20your\x20Telegram\x20Phone\x20Number\x20?','Please\x20configure\x20your\x20TELEGRAM_APP_ID\x20and\x20TELEGRAM_APP_HASH\x20first','<empty>\x20\x0a\x20\x0aPlease\x20enter\x20Account\x20Name\x20:','delay','length','includes','\x20|\x20Sleep\x20','destroy','Please\x20Enter\x20Telegram\x20Query\x20:\x20','useSession','2cSFPEN','\x20-\x20Webview\x20Connected','query-','reflink-reflink_WBqDb0I3vuVe515o-','Enter\x20your\x20Telegram\x20Verification\x20Code\x20?','Your\x20Account\x20List\x20:\x0a\x20\x0a','Your\x20Query\x20Account\x20List\x20:\x0a\x20\x0a','https://fintopio-tg.fintopio.com/','info','You\x20don\x27t\x20have\x20any\x20Accounts,\x20please\x20create\x20first','resetAccounts','1398995gaArAJ','\x0a\x20\x0aPlease\x20Enter\x20New\x20Query\x20','client','26912jHcPBm','onBoarding','Query\x20','<empty>\x20\x0a\x20\x0aPlease\x20enter\x20Session\x20Name\x20:','Invalid\x20input,\x20Please\x20try\x20again','529764mHGeVv','seconds','proxy','\x0a\x20\x0a1.\x20Create\x20Account\x20\x0a2.\x20Reset\x20Account\x20\x0a3.\x20Start\x20Bot\x0a4.\x20Query\x20modification\x0a\x20\x0aInput\x20your\x20choice\x20:','getEntity','text','peer','Invalid\x20Input','getSession','saveQueryFile','/query.txt','fintopio','indexOf','Old\x20Query\x20:\x20','resolvePeer','serverAddress','queryModificaiton','save','filter','Enter\x20your\x20Telegram\x20Password?','Session\x20','error','209828mVmPBG','7bBWfrD','start','accountName','665538FDZtTD','\x0a\x20\x0aYou\x20already\x20have\x20sessions,\x20cancel(CTRL+C)\x20or\x20create\x20new\x20Session\x20:','queryCreation','warn'];_0x452c=function(){return _0x279e1e;};return _0x452c();}import{StoreSession}from'telegram/sessions/StoreSession.js';import _0x2948e8 from'../utils/logger.js';import{FloodWaitError}from'telegram/errors/RPCErrorList.js';import{accounts}from'../../accounts/accounts.js';import{HttpsProxyAgent}from'https-proxy-agent';export class Telegram{[_0x48c62c(0x179)];constructor(){const _0x19ea49=_0x48c62c;this[_0x19ea49(0x168)]='accounts',this['url']=_0x19ea49(0x199),this[_0x19ea49(0x17d)]=_0x19ea49(0x1b0);}async[_0x48c62c(0x17f)](){const _0x199d3f=_0x48c62c;try{await this[_0x199d3f(0x1a1)]();}catch(_0x58ac20){console[_0x199d3f(0x16f)](_0x58ac20),_0x2948e8[_0x199d3f(0x164)](''+JSON[_0x199d3f(0x176)](_0x58ac20));throw _0x58ac20;}}async['onBoarding'](){const _0x5e9a1f=_0x48c62c;try{let _0x1c6965=_0x5e9a1f(0x180);const _0x1cb9d4=Helper['getSession']('accounts');if(_0x1cb9d4[_0x5e9a1f(0x18c)]==0x0)_0x1c6965+=_0x5e9a1f(0x175);else for(const _0x19b65f of _0x1cb9d4){_0x1c6965+='-\x20'+_0x19b65f+'\x0a';}_0x1c6965+=_0x5e9a1f(0x183),_0x1c6965+=_0x5e9a1f(0x1a8);const _0x14f341=await _0x21ffdc[_0x5e9a1f(0x1aa)](_0x1c6965);if(_0x14f341==0x1)await this[_0x5e9a1f(0x16e)]();else{if(_0x14f341==0x2)Helper[_0x5e9a1f(0x19c)](),await Helper[_0x5e9a1f(0x18b)](0xbb8),await this['onBoarding']();else{if(_0x14f341==0x3)Helper[_0x5e9a1f(0x1ad)](this[_0x5e9a1f(0x168)])?.[_0x5e9a1f(0x18c)]==0x0&&(console[_0x5e9a1f(0x19a)](_0x5e9a1f(0x19b)),await this[_0x5e9a1f(0x1a1)]());else _0x14f341==0x4?await this[_0x5e9a1f(0x15f)]():(console[_0x5e9a1f(0x164)](_0x5e9a1f(0x1a4)),await this[_0x5e9a1f(0x1a1)]());}}}catch(_0x4e8b5a){throw _0x4e8b5a;}}async[_0x48c62c(0x15f)](){const _0x563ce0=_0x48c62c;try{const _0x4c045d=Helper[_0x563ce0(0x1ad)](_0x563ce0(0x16d)),_0x36814e=_0x4c045d[_0x563ce0(0x161)](_0x10b6c1=>_0x10b6c1[_0x563ce0(0x18d)](_0x563ce0(0x177)));let _0x1a83cf=_0x563ce0(0x198);for(const _0x5a359b of _0x36814e){_0x1a83cf+=_0x4c045d[_0x563ce0(0x15b)](_0x5a359b)+0x1+'.\x20'+_0x5a359b+'\x0a';}_0x36814e['length']==0x0?(console[_0x563ce0(0x16f)]('You\x20dont\x20have\x20any\x20Query\x20Account.'),await this[_0x563ce0(0x1a1)]()):_0x1a83cf+='\x0a\x20\x0aPlease\x20Select\x20Query\x20Account\x20for\x20modification:';const _0x1e0c34=await _0x21ffdc[_0x563ce0(0x1aa)](_0x1a83cf);if(_0x36814e[_0x1e0c34-0x1]!=undefined){const _0x38b7bc=_0x36814e[_0x1e0c34-0x1];this[_0x563ce0(0x168)]=_0x563ce0(0x186)+_0x38b7bc;const _0x4ec2a3=_0x563ce0(0x15c)+Helper['readQueryFile'](this[_0x563ce0(0x168)]+_0x563ce0(0x1af))+_0x563ce0(0x19e),_0x158418=await _0x21ffdc[_0x563ce0(0x1aa)](_0x4ec2a3);await Helper[_0x563ce0(0x1ae)](this['accountName'],_0x158418),await Helper[_0x563ce0(0x18b)](0xbb8),await this[_0x563ce0(0x1a1)]();}else console[_0x563ce0(0x164)](_0x563ce0(0x1a4)),await this[_0x563ce0(0x15f)]();}catch(_0x2b370f){throw _0x2b370f;}}async[_0x48c62c(0x185)](){const _0xe9cefb=_0x48c62c;try{if(Config['TELEGRAM_APP_ID']==undefined||Config['TELEGRAM_APP_HASH']==undefined)throw new Error(_0xe9cefb(0x189));const _0x5575bb=Helper[_0xe9cefb(0x1ad)](_0xe9cefb(0x16d));let _0x2cf0ce=_0xe9cefb(0x197);for(const _0x3c9487 of _0x5575bb){_0x2cf0ce+=_0x5575bb[_0xe9cefb(0x15b)](_0x3c9487)+0x1+'.\x20'+_0x3c9487+'\x0a';}_0x5575bb['length']==0x0?_0x2cf0ce+=_0xe9cefb(0x1a3):_0x2cf0ce+=_0xe9cefb(0x16a);const _0x7fb5c2=await _0x21ffdc['text'](_0x2cf0ce);this[_0xe9cefb(0x168)]=Helper[_0xe9cefb(0x182)]('sessions-'+_0x7fb5c2),await this[_0xe9cefb(0x191)](this['accountName']),await this['disconnect'](),_0x2948e8[_0xe9cefb(0x19a)]('Session\x20'+this[_0xe9cefb(0x168)]+'\x20-\x20Created'),console[_0xe9cefb(0x16f)]('Session\x20'+_0x7fb5c2+_0xe9cefb(0x17a)),this[_0xe9cefb(0x179)]['save'](),await Helper[_0xe9cefb(0x18b)](0xbb8),process[_0xe9cefb(0x172)]();}catch(_0x1a800d){throw _0x1a800d;}}async[_0x48c62c(0x16b)](){const _0x516b17=_0x48c62c;try{const _0x84b8c2=Helper[_0x516b17(0x1ad)]('accounts');let _0x176ab5=_0x516b17(0x197);for(const _0x4a78a0 of _0x84b8c2){_0x176ab5+=_0x84b8c2['indexOf'](_0x4a78a0)+0x1+'.\x20'+_0x4a78a0+'\x0a';}_0x84b8c2[_0x516b17(0x18c)]==0x0?_0x176ab5+=_0x516b17(0x18a):_0x176ab5+='\x0a\x20\x0aYou\x20already\x20have\x20Account,\x20cancel(CTRL+C)\x20or\x20create\x20new\x20Account\x20:';const _0x39788e=await _0x21ffdc[_0x516b17(0x1aa)](_0x176ab5);this[_0x516b17(0x168)]=Helper[_0x516b17(0x182)](_0x516b17(0x194)+_0x39788e);let _0x564a17=_0x516b17(0x190);const _0xd3a993=await _0x21ffdc['text'](_0x564a17);await Helper[_0x516b17(0x1ae)](this[_0x516b17(0x168)],_0xd3a993),_0x2948e8['info'](_0x516b17(0x1a2)+this[_0x516b17(0x168)]+'\x20-\x20Created'),console[_0x516b17(0x16f)](_0x516b17(0x1a2)+_0x39788e+_0x516b17(0x17a)),await Helper['delay'](0xbb8),process[_0x516b17(0x172)]();}catch(_0x572dee){throw _0x572dee;}}async['accountType'](){const _0x41beea=_0x48c62c;try{const _0x30ac4d=Helper[_0x41beea(0x1ad)]('accounts');let _0x2836a7=_0x41beea(0x197);if(_0x30ac4d['length']>0x0)for(const _0x293ca6 of _0x30ac4d){_0x2836a7+=_0x30ac4d[_0x41beea(0x15b)](_0x293ca6)+0x1+'.\x20'+_0x293ca6+'\x0a';}else _0x2836a7+='<empty>\x0a';_0x2836a7+=_0x41beea(0x187);const _0x578583=await _0x21ffdc[_0x41beea(0x1aa)](_0x2836a7);if(_0x578583==0x1)await this[_0x41beea(0x185)]();else _0x578583==0x2?await this[_0x41beea(0x16b)]():(console[_0x41beea(0x16f)](_0x41beea(0x1ac)),await this[_0x41beea(0x16e)]());}catch(_0x82030e){throw _0x82030e;}}async[_0x48c62c(0x191)](_0x45ef29,_0x42566b){const _0x3ce9f3=_0x48c62c;try{this[_0x3ce9f3(0x1a7)]=_0x42566b;const _0x29f4d5={'connectionRetries':0x5};this[_0x3ce9f3(0x1a7)]&&(_0x29f4d5['agent']=new HttpsProxyAgent(this[_0x3ce9f3(0x1a7)])),this[_0x3ce9f3(0x179)]=new StoreSession(_0x45ef29),this['client']=new TelegramClient(this[_0x3ce9f3(0x179)],Config['TELEGRAM_APP_ID'],Config['TELEGRAM_APP_HASH'],_0x29f4d5),this[_0x3ce9f3(0x179)][_0x3ce9f3(0x160)](),await this['client'][_0x3ce9f3(0x167)]({'phoneNumber':async()=>await _0x21ffdc[_0x3ce9f3(0x1aa)](_0x3ce9f3(0x188)),'password':async()=>await _0x21ffdc[_0x3ce9f3(0x1aa)](_0x3ce9f3(0x162)),'phoneCode':async()=>await _0x21ffdc[_0x3ce9f3(0x1aa)](_0x3ce9f3(0x196)),'onError':_0xca8eb7=>{const _0x191cd8=_0x3ce9f3;console[_0x191cd8(0x16f)](_0xca8eb7[_0x191cd8(0x170)]);}}),console[_0x3ce9f3(0x16f)]();}catch(_0x561b74){throw _0x561b74;}}async[_0x48c62c(0x15d)](){const _0x38a59d=_0x48c62c;try{_0x2948e8[_0x38a59d(0x19a)](_0x38a59d(0x163)+this[_0x38a59d(0x181)]+'\x20-\x20Resolving\x20Peer');while(this[_0x38a59d(0x1ab)]==undefined){try{this['peer']=await this[_0x38a59d(0x19f)][_0x38a59d(0x1a9)](this[_0x38a59d(0x17d)]);break;}catch(_0x2c3130){if(_0x2c3130 instanceof FloodWaitError){const _0x87e559=_0x2c3130[_0x38a59d(0x1a6)];_0x2948e8[_0x38a59d(0x16c)](this['client'][_0x38a59d(0x181)]['serverAddress']+'\x20|\x20FloodWait\x20'+_0x2c3130),_0x2948e8[_0x38a59d(0x19a)](this['client'][_0x38a59d(0x181)][_0x38a59d(0x15e)]+_0x38a59d(0x18e)+_0x87e559+'s'),await Helper[_0x38a59d(0x18b)]((_0x87e559+0x3)*0x3e8);}else throw _0x2c3130;}}}catch(_0x215199){throw _0x215199;}}async['disconnect'](){const _0x3f4c66=_0x48c62c;await this[_0x3f4c66(0x19f)][_0x3f4c66(0x173)](),await this[_0x3f4c66(0x19f)][_0x3f4c66(0x18f)](),this[_0x3f4c66(0x1ab)]=undefined,this['accountName']=undefined;}async['initWebView'](){const _0x598723=_0x48c62c;try{const _0x11713c=await this['client'][_0x598723(0x174)](new Api[(_0x598723(0x178))]['RequestAppWebView']({'peer':this['bot'],'app':new Api[(_0x598723(0x17e))]({'botId':await this[_0x598723(0x19f)]['getInputEntity'](this[_0x598723(0x17d)]),'shortName':'wallet'}),'writeAllowed':!![],'platform':'android','startParam':_0x598723(0x195),'compact':!![]}));_0x2948e8[_0x598723(0x19a)](_0x598723(0x163)+this[_0x598723(0x181)]+_0x598723(0x193));const _0x4c3a0e=_0x11713c['url'];return Helper[_0x598723(0x17c)](_0x4c3a0e);}catch(_0x34b88b){throw _0x34b88b;}}}
+import input from "input";
+import { Helper } from "../utils/helper.js";
+import { Api, TelegramClient } from "telegram";
+import { StoreSession } from "telegram/sessions/StoreSession.js";
+import logger from "../utils/logger.js";
+import { FloodWaitError } from "telegram/errors/RPCErrorList.js";
+import { accounts } from "../../accounts/accounts.js";  // <--- Perubahan pada impor
+import { HttpsProxyAgent } from "https-proxy-agent";
+
+export class Telegram {
+  storeSession;
+
+  constructor() {
+    this.accountName = "accounts";
+    this.url = "https://fintopio-tg.fintopio.com/";
+    this.bot = "fintopio";
+  }
+
+  async init() {
+    try {
+      await this.onBoarding();
+    } catch (error) {
+      console.log(error);
+      logger.error(`${JSON.stringify(error)}`);
+      throw error;
+    }
+  }
+
+  async onBoarding() {
+    try {
+      let ctx = "Welcome to Fintopio Mining Bot \nBy : Nofan Rambe \n \nLet's get started.\n\nYour Session List:\n";
+      const accountList = Helper.getSession("accounts");
+
+      ctx += accountList.length === 0 ? "<empty>" : accountList.map((sess, index) => `- ${sess}`).join("\n");
+      ctx += "\n\nPlease Choose a menu: \n";
+      ctx += "\n1. Create Account \n2. Reset Account \n3. Start Bot\n4. Query Modification\n \nInput your choice: ";
+
+      const choice = parseInt(await input.text(ctx));
+
+      switch (choice) {
+        case 1:
+          await this.accountType();
+          break;
+        case 2:
+          Helper.resetAccounts();
+          await Helper.delay(3000);
+          await this.onBoarding();
+          break;
+        case 3:
+          if (Helper.getSession(this.accountName)?.length === 0) {
+            console.info("You don't have any accounts, please create one first.");
+            await this.onBoarding();
+          }
+          break;
+        case 4:
+          await this.queryModification();
+          break;
+        default:
+          console.error("Invalid input, Please try again.");
+          await this.onBoarding();
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async queryModification() {
+    try {
+      const accountList = Helper.getSession("accounts");
+      const queryAccountList = accountList.filter((item) => item.includes("query"));
+
+      if (queryAccountList.length === 0) {
+        console.log("You don't have any Query Account.");
+        await this.onBoarding();
+        return;
+      }
+
+      let ctx = "Your Query Account List:\n\n" + queryAccountList.map((acc, i) => `${i + 1}. ${acc}`).join("\n");
+      ctx += "\n\nPlease select a Query Account for modification:";
+
+      const choice = parseInt(await input.text(ctx));
+
+      if (choice > 0 && choice <= queryAccountList.length) {
+        const account = queryAccountList[choice - 1];
+        this.accountName = `accounts/${account}`;
+
+        const oldQuery = Helper.readQueryFile(`${this.accountName}/query.txt`);
+        const newQuery = await input.text(`Old Query: ${oldQuery}\n\nPlease enter the new query:`);
+
+        await Helper.saveQueryFile(this.accountName, newQuery);
+        await Helper.delay(3000);
+        await this.onBoarding();
+      } else {
+        console.error("Invalid input, Please try again.");
+        await this.queryModification();
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+}
