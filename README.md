@@ -52,7 +52,7 @@ Invite more friends for 10% bonus HP) join and claim join reward
 
 3. Make new your folder
    ```bash
-   mkdir -p accounts mkdir -p app/config
+   mkdir -p accounts && mkdir -p app/config
    ```
 4. Configure the bot config
    ```bash
