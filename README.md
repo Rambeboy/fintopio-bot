@@ -49,20 +49,24 @@ Invite more friends for 10% bonus HP) join and claim join reward
    ```bash
    npm install && npm i telegram@2.22.2 && npm run setup
    ```
-   
-3. Configure your accounts
+
+3. Make new accounts folder
    ```bash
-   nano accounts/accounts.js
+   mkdir -p accounts
+   ```
+4. Configure the bot config
+   ```bash
+   nano config/config.js
    ```
    And add your telegram app id and hash there.
 
-4. (If You Use Proxy) To configure the Proxy, run
+5. (If You Use Proxy) To configure the Proxy, run
    ```bash
    nano config/proxy_list.js
    ```
    And add your proxy list there, it currently only support https proxy.
  
-5. To start the app, run
+6. To start the app, run
    ```bash
    npm run start
    ```
