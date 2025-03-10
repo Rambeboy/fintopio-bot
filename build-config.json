@@ -1,0 +1,13 @@
+{
+  "input": ".",
+  "output": "app",
+  "exclude": [
+    "node_modules",
+    "test.js",
+    "sessions",
+    "accounts",
+    "config",
+    "src/reference"
+  ]
+}
+  
