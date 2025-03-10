@@ -1,1 +1,205 @@
-const _0x4ff4eb=_0x5e2f;(function(_0x5d3d1c,_0x2897e1){const _0xf8636c=_0x5e2f,_0x4cc7ff=_0x5d3d1c();while(!![]){try{const _0x134eb1=parseInt(_0xf8636c(0x18f))/0x1+parseInt(_0xf8636c(0x1b3))/0x2+-parseInt(_0xf8636c(0x188))/0x3+-parseInt(_0xf8636c(0x1b4))/0x4*(-parseInt(_0xf8636c(0x1a8))/0x5)+-parseInt(_0xf8636c(0x1b8))/0x6*(-parseInt(_0xf8636c(0x1ac))/0x7)+-parseInt(_0xf8636c(0x184))/0x8+parseInt(_0xf8636c(0x19a))/0x9;if(_0x134eb1===_0x2897e1)break;else _0x4cc7ff['push'](_0x4cc7ff['shift']());}catch(_0x541f89){_0x4cc7ff['push'](_0x4cc7ff['shift']());}}}(_0x12ad,0x53c5c));import _0x2fd9eb from'moment-timezone';import _0x167703 from'fs';function _0x5e2f(_0x3fe11b,_0x8b766f){const _0x12ad19=_0x12ad();return _0x5e2f=function(_0x5e2f95,_0x4d5fa3){_0x5e2f95=_0x5e2f95-0x183;let _0xb2fbae=_0x12ad19[_0x5e2f95];return _0xb2fbae;},_0x5e2f(_0x3fe11b,_0x8b766f);}import _0x5c835f from'path';import'querystring';function _0x12ad(){const _0x789f76=['error','Account\x20reset\x20successfully.\x20Please\x20restart\x20the\x20bot.','Asia/Singapore','Error\x20deleting\x20accounts:\x20','saveQueryFile','existsSync','\x20Minutes\x20','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20SM-G973F)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20EdgA/124.0.2478.104','1639360XkhRlo','\x20Hours\x20','Error\x20deleting\x20file\x20','forEach','812145dDMDth','Query\x20File\x20Created/Modified\x20Successfully.','YYYY-MM-DD\x20HH:mm:ss','round','&tgWebAppVersion=','Error\x20creating\x20directory:\x20','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789','460XcyBsl','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20SM-N975F)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20OPR/76.2.4027.73374','join','clearInfo','readFileSync','accounts','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20VOG-L29)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20OPR/76.2.4027.73374','queryToJSON','convertUrlEncodedString','log','getSession','2371905XGOHqv','unix','charAt','user','readQueryFile','createDir','Error\x20reading\x20sessions\x20directory:\x20','writeFile','info','getQueryFromUrl','push','floor','\x20Seconds','Delaying\x20for\x20','1065765BJPPiN','resolve','utf8','query.txt','56539RDhiqZ','readdirSync','random','getCurrentTimestamp','mkdirSync','Invalid\x20Query','readTime','240758lErXeQ','8mRNywz','Error\x20writing\x20file:','parse','generateRandomString','6txvFTs','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20Pixel\x203\x20XL)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20EdgA/124.0.2478.104','toString','delay','split','msToTime','Mozilla/5.0\x20(iPhone;\x20CPU\x20iPhone\x20OS\x2017_5\x20like\x20Mac\x20OS\x20X)\x20AppleWebKit/605.1.15\x20(KHTML,\x20like\x20Gecko)\x20CriOS/125.0.6422.80\x20Mobile/15E148\x20Safari/604.1'];_0x12ad=function(){return _0x789f76;};return _0x12ad();}import _0x343296 from'./twist.js';export class Helper{static [_0x4ff4eb(0x1bb)]=(_0x152426,_0x1521b1,_0x3d9fa1,_0x68709b)=>{return new Promise(_0x3a7108=>{const _0xe63199=_0x5e2f;let _0x1366c7=_0x152426;_0x1521b1!=undefined?_0x343296[_0xe63199(0x198)](_0x3d9fa1,_0x1521b1,_0x68709b,'Delaying\x20for\x20'+this[_0xe63199(0x1bd)](_0x152426)):_0x343296['info']('Delaying\x20for\x20'+this[_0xe63199(0x1bd)](_0x152426));const _0xc1b3fe=setInterval(()=>{const _0x224d5c=_0xe63199;_0x1366c7-=0x3e8,_0x1521b1!=undefined?_0x343296['log'](_0x3d9fa1,_0x1521b1,_0x68709b,_0x224d5c(0x1a7)+this['msToTime'](_0x1366c7)):_0x343296[_0x224d5c(0x1a2)](_0x224d5c(0x1a7)+this[_0x224d5c(0x1bd)](_0x1366c7)),_0x1366c7<=0x0&&(clearInterval(_0xc1b3fe),_0x3a7108());},0x3e8);setTimeout(async()=>{const _0x29e1c8=_0xe63199;clearInterval(_0xc1b3fe),await _0x343296[_0x29e1c8(0x192)](),_0x1521b1&&_0x343296[_0x29e1c8(0x198)](_0x3d9fa1,_0x1521b1,_0x68709b),_0x3a7108();},_0x152426);});};static['randomUserAgent'](){const _0x3a9420=_0x4ff4eb,_0x2c06b4=[_0x3a9420(0x1be),'Mozilla/5.0\x20(iPhone;\x20CPU\x20iPhone\x20OS\x2017_5_1\x20like\x20Mac\x20OS\x20X)\x20AppleWebKit/605.1.15\x20(KHTML,\x20like\x20Gecko)\x20Version/17.0\x20EdgiOS/125.2535.60\x20Mobile/15E148\x20Safari/605.1.15',_0x3a9420(0x183),_0x3a9420(0x1b9),_0x3a9420(0x195),_0x3a9420(0x190)];return _0x2c06b4[Math[_0x3a9420(0x1a5)](Math['random']()*_0x2c06b4['length'])];}static[_0x4ff4eb(0x1b2)](_0x96929){const _0x1a64a7=_0x4ff4eb,_0x3eaade=_0x2fd9eb[_0x1a64a7(0x19b)](_0x96929);return _0x3eaade['format'](_0x1a64a7(0x18a));}static[_0x4ff4eb(0x1af)](){const _0x1caa13=_0x4ff4eb,_0x1c685a=_0x2fd9eb()['tz'](_0x1caa13(0x1c1))[_0x1caa13(0x19b)]();return _0x1c685a[_0x1caa13(0x1ba)]();}static[_0x4ff4eb(0x199)](_0x4a6222){const _0x5c6a1d=_0x4ff4eb;try{!_0x167703[_0x5c6a1d(0x1c4)](_0x5c6a1d(0x194))&&_0x167703[_0x5c6a1d(0x1b0)](_0x5c6a1d(0x194));const _0xf39737=_0x167703[_0x5c6a1d(0x1ad)](_0x5c835f[_0x5c6a1d(0x1a9)](_0x4a6222)),_0x3d9db1=[];return _0xf39737[_0x5c6a1d(0x187)](_0x4a0250=>{const _0x36868f=_0x5c6a1d;_0x3d9db1[_0x36868f(0x1a4)](_0x4a0250);}),_0x3d9db1;}catch(_0x2ed559){throw Error(_0x5c6a1d(0x1a0)+_0x2ed559+',');}}static['resetAccounts'](){const _0x401285=_0x4ff4eb;try{const _0x1adb37=_0x5c835f['resolve'](_0x401285(0x194)),_0x20c647=_0x167703['readdirSync'](_0x1adb37);console[_0x401285(0x198)]('Deleting\x20Accounts...'),_0x20c647[_0x401285(0x187)](_0x1f5e21=>{const _0x46e3f5=_0x401285,_0x23705f=_0x5c835f[_0x46e3f5(0x191)](_0x1adb37,_0x1f5e21);console['log'](_0x23705f),_0x167703['rm'](_0x23705f,{'recursive':!![],'force':!![]},_0x142659=>{const _0x39025c=_0x46e3f5;_0x142659&&console[_0x39025c(0x1bf)](_0x39025c(0x186)+_0x23705f+':',_0x142659);});}),console[_0x401285(0x1a2)](_0x401285(0x1c0));}catch(_0x11be11){console[_0x401285(0x1bf)](_0x401285(0x1c2)+_0x11be11);throw _0x11be11;}}static[_0x4ff4eb(0x1a3)](_0x36f099){const _0x10926e=_0x4ff4eb,_0xadb4cf=_0x36f099['split']('tgWebAppData=')[0x1]['split'](_0x10926e(0x18c))[0x0];return this[_0x10926e(0x197)](_0xadb4cf);}static['convertUrlEncodedString'](_0x32c0c5){const _0x309974=decodeURIComponent(_0x32c0c5);return _0x309974;}static[_0x4ff4eb(0x19f)](_0x56ec6c){const _0x2b5035=_0x4ff4eb;try{const _0x456e59=_0x5c835f['join'](_0x2b5035(0x194),_0x56ec6c);return!_0x167703[_0x2b5035(0x1c4)](_0x2b5035(0x194))&&_0x167703[_0x2b5035(0x1b0)](_0x2b5035(0x194)),_0x167703['mkdirSync'](_0x456e59,{'recursive':!![]}),console['log'](_0x456e59),_0x456e59;}catch(_0x283636){throw new Error(_0x2b5035(0x18d)+_0x283636);}}static[_0x4ff4eb(0x1c3)](_0x3398e0,_0x4c864b){const _0x284882=_0x4ff4eb,_0x30d3c9=_0x5c835f[_0x284882(0x1a9)](_0x3398e0,_0x284882(0x1ab));_0x167703[_0x284882(0x1a1)](_0x30d3c9,_0x4c864b,_0x284882(0x1aa),_0x542eac=>{const _0x5d4412=_0x284882;_0x542eac?console[_0x5d4412(0x1bf)](_0x5d4412(0x1b5),_0x542eac):console['log'](_0x5d4412(0x189));});}static[_0x4ff4eb(0x1ae)](_0x4100d9,_0x3d4ccb){const _0x531910=_0x4ff4eb,_0x1f1d7f=Math['floor'](Math[_0x531910(0x1ae)]()*(_0x3d4ccb-_0x4100d9+0x1))+_0x4100d9;return _0x1f1d7f;}static['msToTime'](_0x3a6619){const _0x59d98f=_0x4ff4eb,_0xb4453=Math[_0x59d98f(0x1a5)](_0x3a6619/0x36ee80),_0x3382b3=_0x3a6619%0x36ee80,_0x5b7e64=Math['floor'](_0x3382b3/0xea60),_0x1ee1ca=_0x3382b3%0xea60,_0xfc464f=Math[_0x59d98f(0x18b)](_0x1ee1ca/0x3e8);return _0xb4453+_0x59d98f(0x185)+_0x5b7e64+_0x59d98f(0x1c5)+_0xfc464f+_0x59d98f(0x1a6);}static[_0x4ff4eb(0x196)](_0x54443d){const _0x405100=_0x4ff4eb;try{const _0x5b4ce6={},_0x256ff3=_0x54443d[_0x405100(0x1bc)]('&');return _0x256ff3[_0x405100(0x187)](_0x15f2be=>{const _0x3d37c7=_0x405100,[_0x5e35e7,_0x2f2b89]=_0x15f2be['split']('=');_0x5e35e7===_0x3d37c7(0x19d)?_0x5b4ce6[_0x5e35e7]=JSON[_0x3d37c7(0x1b6)](decodeURIComponent(_0x2f2b89)):_0x5b4ce6[_0x5e35e7]=decodeURIComponent(_0x2f2b89);}),_0x5b4ce6;}catch(_0x544248){throw Error(_0x405100(0x1b1));}}static[_0x4ff4eb(0x1b7)](_0x54da48){const _0x37be26=_0x4ff4eb;let _0x2b505e='';const _0x3f4755='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'['length'];for(let _0x2d7c22=0x0;_0x2d7c22<_0x54da48;_0x2d7c22++){_0x2b505e+=_0x37be26(0x18e)[_0x37be26(0x19c)](Math[_0x37be26(0x1a5)](Math[_0x37be26(0x1ae)]()*_0x3f4755));}return _0x2b505e;}static[_0x4ff4eb(0x19e)](_0x541b93){const _0xa052c3=_0x4ff4eb;try{const _0x5160f7=_0x5c835f[_0xa052c3(0x1a9)](_0x541b93),_0x46e799=_0x167703[_0xa052c3(0x193)](_0x5160f7,_0xa052c3(0x1aa));return _0x46e799;}catch(_0x455c46){console['log']('No\x20query.txt\x20Files\x20Found');}}}
+import moment from "moment-timezone";
+import fs from "fs";
+import path from "path";
+import { parse, stringify } from "querystring";
+import twist from "./twist.js";
+
+export class Helper {
+  static delay = (ms, acc, msg, obj) => {
+    return new Promise((resolve) => {
+      let remainingMilliseconds = ms;
+
+      if (acc != undefined) {
+        twist.log(msg, acc, obj, `Delaying for ${this.msToTime(ms)}`);
+      } else {
+        twist.info(`Delaying for ${this.msToTime(ms)}`);
+      }
+
+      const interval = setInterval(() => {
+        remainingMilliseconds -= 1000;
+        if (acc != undefined) {
+          twist.log(
+            msg,
+            acc,
+            obj,
+            `Delaying for ${this.msToTime(remainingMilliseconds)}`
+          );
+        } else {
+          twist.info(`Delaying for ${this.msToTime(remainingMilliseconds)}`);
+        }
+
+        if (remainingMilliseconds <= 0) {
+          clearInterval(interval);
+          resolve();
+        }
+      }, 1000);
+
+      setTimeout(async () => {
+        clearInterval(interval);
+        await twist.clearInfo();
+        if (acc) {
+          twist.log(msg, acc, obj);
+        }
+        resolve();
+      }, ms);
+    });
+  };
+
+  static randomUserAgent() {
+    const list_useragent = [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/125.0.6422.80 Mobile/15E148 Safari/604.1",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 EdgiOS/125.2535.60 Mobile/15E148 Safari/605.1.15",
+      "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 EdgA/124.0.2478.104",
+      "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 EdgA/124.0.2478.104",
+      "Mozilla/5.0 (Linux; Android 10; VOG-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 OPR/76.2.4027.73374",
+      "Mozilla/5.0 (Linux; Android 10; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 OPR/76.2.4027.73374",
+    ];
+    return list_useragent[Math.floor(Math.random() * list_useragent.length)];
+  }
+
+  static readTime(milliseconds) {
+    const date = moment.unix(milliseconds);
+    return date.format("YYYY-MM-DD HH:mm:ss");
+  }
+
+  static getCurrentTimestamp() {
+    const timestamp = moment().tz("Asia/Singapore").unix();
+    return timestamp.toString();
+  }
+
+  static getSession(sessionName) {
+    try {
+      const accountPath = "accounts";
+      if (!fs.existsSync(accountPath)) {
+        fs.mkdirSync(accountPath);
+      }
+      const files = fs.readdirSync(path.resolve(sessionName));
+      const session = [];
+      files.forEach((file) => {
+        session.push(file);
+      });
+      return session;
+    } catch (error) {
+      throw Error(`Error reading sessions directory: ${error},`);
+    }
+  }
+
+  static resetAccounts() {
+    try {
+      const directoryPath = path.resolve("accounts");
+      const files = fs.readdirSync(directoryPath);
+      console.log("Deleting Accounts...");
+
+      files.forEach((file) => {
+        const filePath = path.join(directoryPath, file);
+        console.log(filePath);
+        fs.rm(filePath, { recursive: true, force: true }, (err) => {
+          if (err) {
+            console.error(`Error deleting file ${filePath}:`, err);
+          }
+        });
+      });
+
+      console.info("Account reset successfully. Please restart the bot.");
+    } catch (error) {
+      console.error(`Error deleting accounts: ${error}`);
+      throw error;
+    }
+  }
+
+  static getQueryFromUrl(url) {
+    const query = url.split("tgWebAppData=")[1].split("&tgWebAppVersion=")[0];
+
+    return this.convertUrlEncodedString(query);
+  }
+
+  static convertUrlEncodedString(encodedStr) {
+    const decodedOnce = decodeURIComponent(encodedStr);
+    return decodedOnce;
+  }
+  static createDir(dirName) {
+    try {
+      const accountPaths = "accounts";
+      const dirPath = path.join(accountPaths, dirName);
+
+      if (!fs.existsSync(accountPaths)) {
+        fs.mkdirSync(accountPaths);
+      }
+
+      fs.mkdirSync(dirPath, { recursive: true });
+
+      console.log(dirPath);
+      return dirPath;
+    } catch (error) {
+      throw new Error(`Error creating directory: ${error}`);
+    }
+  }
+  static saveQueryFile(queryFilePath, query) {
+    const filePath = path.resolve(queryFilePath, "query.txt");
+
+    fs.writeFile(filePath, query, "utf8", (err) => {
+      if (err) {
+        console.error("Error writing file:", err);
+      } else {
+        console.log("Query File Created/Modified Successfully.");
+      }
+    });
+  }
+
+  static random(min, max) {
+    const rand = Math.floor(Math.random() * (max - min + 1)) + min;
+    return rand;
+  }
+
+  static msToTime(milliseconds) {
+    const hours = Math.floor(milliseconds / (1000 * 60 * 60));
+    const remainingMillisecondsAfterHours = milliseconds % (1000 * 60 * 60);
+    const minutes = Math.floor(remainingMillisecondsAfterHours / (1000 * 60));
+    const remainingMillisecondsAfterMinutes =
+      remainingMillisecondsAfterHours % (1000 * 60);
+    const seconds = Math.round(remainingMillisecondsAfterMinutes / 1000);
+
+    return `${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
+  }
+
+  static queryToJSON(query) {
+    try {
+      const queryObject = {};
+      const pairs = query.split("&");
+
+      pairs.forEach((pair) => {
+        const [key, value] = pair.split("=");
+        if (key === "user") {
+          queryObject[key] = JSON.parse(decodeURIComponent(value));
+        } else {
+          queryObject[key] = decodeURIComponent(value);
+        }
+      });
+
+      return queryObject;
+    } catch (error) {
+      throw Error("Invalid Query");
+    }
+  }
+
+  static generateRandomString(length) {
+    const characters =
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let result = "";
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  }
+
+  static readQueryFile(queryPath) {
+    try {
+      const fullPath = path.resolve(queryPath);
+      const query = fs.readFileSync(fullPath, "utf8");
+      return query;
+    } catch (error) {
+      console.log("No query.txt Files Found");
+    }
+  }
+}
