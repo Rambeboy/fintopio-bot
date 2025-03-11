@@ -1,1 +1,68 @@
-const _0x1199ce=_0xaf9d;(function(_0x372bd7,_0x51e93f){const _0x47a996=_0xaf9d,_0x504a8d=_0x372bd7();while(!![]){try{const _0x14d7c5=parseInt(_0x47a996(0x18b))/0x1*(parseInt(_0x47a996(0x18f))/0x2)+parseInt(_0x47a996(0x18e))/0x3+parseInt(_0x47a996(0x18a))/0x4+-parseInt(_0x47a996(0x191))/0x5+parseInt(_0x47a996(0x19c))/0x6+parseInt(_0x47a996(0x194))/0x7*(parseInt(_0x47a996(0x195))/0x8)+parseInt(_0x47a996(0x190))/0x9*(-parseInt(_0x47a996(0x199))/0xa);if(_0x14d7c5===_0x51e93f)break;else _0x504a8d['push'](_0x504a8d['shift']());}catch(_0x4db8b9){_0x504a8d['push'](_0x504a8d['shift']());}}}(_0x235d,0x71676));import{Twisters}from'twisters';function _0x235d(){const _0xcd0bf7=['472NEhfLX','\x0a==============================================','put','farming','10lcftQM','user','clear','2341338hnvYBy','msToTime','timings','\x0a\x0aStatus\x20:\x20','info','\x0aFarming\x20\x20\x20\x20\x20\x20:\x20','log','\x0aDelay\x20\x20:\x20','twisters','Unamed','2196108DbCpdX','864441SoUzvz','finish','firstName','443397FVvvXR','2Zjldhs','12573486cBOuNf','1014005afqary','lastName','remove','13391FbtaKD'];_0x235d=function(){return _0xcd0bf7;};return _0x235d();}function _0xaf9d(_0x21efd,_0x5d51bf){const _0x235d3f=_0x235d();return _0xaf9d=function(_0xaf9d6,_0x40fc1b){_0xaf9d6=_0xaf9d6-0x188;let _0x191379=_0x235d3f[_0xaf9d6];return _0x191379;},_0xaf9d(_0x21efd,_0x5d51bf);}import{Helper}from'./helper.js';import _0x1907e7 from'./logger.js';import{Fintopio}from'../core/fintopio.js';class Twist{constructor(){this['twisters']=new Twisters();}[_0x1199ce(0x1a2)](_0x4108e9='',_0x56ebcf='',_0xfd7206=new Fintopio(),_0x513680){const _0x506e2e=_0x1199ce;_0x513680==undefined&&(_0x1907e7[_0x506e2e(0x1a0)](_0x56ebcf['id']+'\x20-\x20'+_0x4108e9),_0x513680='-');const _0x401e1c=_0xfd7206[_0x506e2e(0x19a)]??{},_0x7c5a8a=_0x401e1c['balance']??'-',_0x2182b5=_0xfd7206[_0x506e2e(0x198)]??{},_0x19155f=_0x2182b5[_0x506e2e(0x19e)]??{},_0x49be5e=_0x19155f[_0x506e2e(0x18c)]??'-';this['twisters'][_0x506e2e(0x197)](_0x56ebcf['id'],{'text':'\x0a=============\x20Account\x20'+_0x56ebcf['id']+'\x20=============\x0aName\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20'+(_0x56ebcf[_0x506e2e(0x18d)]??_0x506e2e(0x189))+'\x20'+_0x56ebcf[_0x506e2e(0x192)]+'\x0aHold\x20Balance\x20:\x20'+_0x7c5a8a+_0x506e2e(0x1a1)+(_0x49be5e!='-'?Helper[_0x506e2e(0x19d)](_0x49be5e-Date['now']()):_0x49be5e)+_0x506e2e(0x19f)+_0x4108e9+_0x506e2e(0x1a3)+_0x513680+'\x0a=============================================='});}[_0x1199ce(0x1a0)](_0x5ebdd1=''){const _0x1be4d7=_0x1199ce;this[_0x1be4d7(0x188)]['put'](0x2,{'text':'\x0a==============================================\x0aInfo\x20:\x20'+_0x5ebdd1+_0x1be4d7(0x196)});return;}['clearInfo'](){const _0x2cda12=_0x1199ce;this['twisters'][_0x2cda12(0x193)](0x2);}[_0x1199ce(0x19b)](_0x5eeacb){const _0x453837=_0x1199ce;this[_0x453837(0x188)][_0x453837(0x193)](_0x5eeacb);}}export default new Twist();
+import { Twisters } from "twisters";
+import { Helper } from "./helper.js";
+import logger from "./logger.js";
+import { Fintopio } from "../core/fintopio.js";
+
+class Twist {
+  constructor() {
+    /** @type  {Twisters}*/
+    this.twisters = new Twisters();
+  }
+
+  /**
+   * @param {string} acc
+   * @param {Fintopio} fintopio
+   * @param {string} msg
+   * @param {string} delay
+   */
+  log(msg = "", acc = "", fintopio = new Fintopio(), delay) {
+    // console.log(acc);
+    if (delay == undefined) {
+      logger.info(`${acc.id} - ${msg}`);
+      delay = "-";
+    }
+
+    const profile = fintopio.user ?? {};
+    const balance = fintopio.balance ?? "-";
+    const farming = fintopio.farming ?? {};
+    const farmingTime = farming.timings ?? {};
+    const farmEndTime = farmingTime.finish ?? "-";
+
+    this.twisters.put(acc.id, {
+      text: `
+============= Account ${acc.id} =============
+Name         : ${acc.firstName ?? "Unamed"} ${acc.lastName}
+Hold Balance : ${balance}
+Farming      : ${
+        farmEndTime != "-"
+          ? Helper.msToTime(farmEndTime - Date.now())
+          : farmEndTime
+      }
+
+Status : ${msg}
+Delay  : ${delay}
+=============================================`,
+    });
+  }
+  /**
+   * @param {string} msg
+   */
+  info(msg = "") {
+    this.twisters.put(2, {
+      text: `
+==============================================
+Info : ${msg}
+==============================================`,
+    });
+    return;
+  }
+
+  clearInfo() {
+    this.twisters.remove(2);
+  }
+
+  clear(acc) {
+    this.twisters.remove(acc);
+  }
+}
+export default new Twist();
