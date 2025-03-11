@@ -29,14 +29,9 @@ export class Telegram {
   }
   async onBoarding() {
     try {
-      let ctx = `
-FINTOPIO MINING BOT
-AUTHOR : NOFAN RAMBE
-WELCOME & ENJOY SIR!
-
-Lets getting started!
-Your Session List:
-`;
+      let ctx = `Lets getting started!
+      Your Session List:
+      `;
       const accountList = Helper.getSession("accounts");
 
       if (accountList.length == 0) {
