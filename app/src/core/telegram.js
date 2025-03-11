@@ -29,8 +29,8 @@ export class Telegram {
   }
   async onBoarding() {
     try {
-      let ctx = `
-Lets getting started!
+      let ctx = `Welcome to Bot!
+Lets getting started
 Your Session List:
 `;
       const accountList = Helper.getSession("accounts");
