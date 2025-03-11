@@ -1,1 +1,57 @@
-const _0x10b04a=_0x54e7;function _0x3450(){const _0x37fa86=['log/app.log','Failed\x20to\x20clear\x20the\x20log\x20file:\x20','error','info','8GrKvEP','logger','Log\x20file\x20cleared','level','19256167MjFfEv','1104731xLFIBK','3368648XdzsTC','File','YYYY-MM-DD\x20HH:mm:ss','warn',']:\x20','truncate','2252332accUdv','message','2099058dJOAfQ','4955320lRWiTG','360711MaFBSf','debug'];_0x3450=function(){return _0x37fa86;};return _0x3450();}(function(_0x266ce1,_0x575cc9){const _0x50285b=_0x54e7,_0x889f09=_0x266ce1();while(!![]){try{const _0x4fef9d=-parseInt(_0x50285b(0x16b))/0x1+-parseInt(_0x50285b(0x172))/0x2+-parseInt(_0x50285b(0x160))/0x3+-parseInt(_0x50285b(0x16c))/0x4+parseInt(_0x50285b(0x15f))/0x5+parseInt(_0x50285b(0x15e))/0x6+parseInt(_0x50285b(0x16a))/0x7*(parseInt(_0x50285b(0x166))/0x8);if(_0x4fef9d===_0x575cc9)break;else _0x889f09['push'](_0x889f09['shift']());}catch(_0x4982cd){_0x889f09['push'](_0x889f09['shift']());}}}(_0x3450,0xdb5bc));import{createLogger,format,transports}from'winston';function _0x54e7(_0xa4f61,_0x22a26d){const _0x34503f=_0x3450();return _0x54e7=function(_0x54e724,_0x8d40ad){_0x54e724=_0x54e724-0x15d;let _0x50d84d=_0x34503f[_0x54e724];return _0x50d84d;},_0x54e7(_0xa4f61,_0x22a26d);}import _0x43a785 from'fs';const {combine,timestamp,printf,colorize}=format,customFormat=printf(({level:_0x84c688,message:_0x4005db,timestamp:_0x1535bc})=>{const _0x24e7ad=_0x54e7;return _0x1535bc+'\x20['+_0x84c688+_0x24e7ad(0x170)+_0x4005db;});class Logger{constructor(){const _0x22d4cb=_0x54e7;this['logger']=createLogger({'level':_0x22d4cb(0x161),'format':combine(timestamp({'format':_0x22d4cb(0x16e)}),colorize(),customFormat),'transports':[new transports[(_0x22d4cb(0x16d))]({'filename':_0x22d4cb(0x162)})],'exceptionHandlers':[new transports['File']({'filename':_0x22d4cb(0x162)})],'rejectionHandlers':[new transports[(_0x22d4cb(0x16d))]({'filename':_0x22d4cb(0x162)})]});}[_0x10b04a(0x165)](_0x36bdf8){const _0x12bcd0=_0x10b04a;this['logger'][_0x12bcd0(0x165)](_0x36bdf8);}[_0x10b04a(0x16f)](_0x20f8f9){const _0x4a8249=_0x10b04a;this[_0x4a8249(0x167)][_0x4a8249(0x16f)](_0x20f8f9);}[_0x10b04a(0x164)](_0x56ba70){const _0xe7a665=_0x10b04a;this[_0xe7a665(0x167)]['error'](_0x56ba70);}[_0x10b04a(0x161)](_0x308cb4){const _0x1d75de=_0x10b04a;this['logger'][_0x1d75de(0x161)](_0x308cb4);}['setLevel'](_0x5236e2){const _0x3ed21f=_0x10b04a;this['logger'][_0x3ed21f(0x169)]=_0x5236e2;}['clear'](){const _0xa39e13=_0x10b04a;_0x43a785[_0xa39e13(0x171)]('log/app.log',0x0,_0x5d13d2=>{const _0xedf9ce=_0xa39e13;_0x5d13d2?this[_0xedf9ce(0x167)][_0xedf9ce(0x164)](_0xedf9ce(0x163)+_0x5d13d2[_0xedf9ce(0x15d)]):this['logger'][_0xedf9ce(0x165)](_0xedf9ce(0x168));});}}export default new Logger();
+import { createLogger, format, transports } from "winston";
+import fs from "fs";
+const { combine, timestamp, printf, colorize } = format;
+
+const customFormat = printf(({ level, message, timestamp }) => {
+  return `${timestamp} [${level}]: ${message}`;
+});
+
+class Logger {
+  constructor() {
+    this.logger = createLogger({
+      level: "debug",
+      format: combine(
+        timestamp({
+          format: "YYYY-MM-DD HH:mm:ss",
+        }),
+        colorize(),
+        customFormat
+      ),
+      transports: [new transports.File({ filename: "log/app.log" })],
+      exceptionHandlers: [new transports.File({ filename: "log/app.log" })],
+      rejectionHandlers: [new transports.File({ filename: "log/app.log" })],
+    });
+  }
+
+  info(message) {
+    this.logger.info(message);
+  }
+
+  warn(message) {
+    this.logger.warn(message);
+  }
+
+  error(message) {
+    this.logger.error(message);
+  }
+
+  debug(message) {
+    this.logger.debug(message);
+  }
+
+  setLevel(level) {
+    this.logger.level = level;
+  }
+
+  clear() {
+    fs.truncate("log/app.log", 0, (err) => {
+      if (err) {
+        this.logger.error("Failed to clear the log file: " + err.message);
+      } else {
+        this.logger.info("Log file cleared");
+      }
+    });
+  }
+}
+
+export default new Logger();
