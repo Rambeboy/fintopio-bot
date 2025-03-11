@@ -203,5 +203,6 @@ export class Helper {
     }
   }
 
-  static()
+  static() {
+  }
 }
