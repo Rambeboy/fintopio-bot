@@ -1,1 +1,207 @@
-const _0x7645a3=_0x53fc;(function(_0x32fb65,_0x25eca1){const _0x256407=_0x53fc,_0x4ed7c8=_0x32fb65();while(!![]){try{const _0x1b01bd=parseInt(_0x256407(0xa4))/0x1+-parseInt(_0x256407(0x97))/0x2*(parseInt(_0x256407(0x7c))/0x3)+parseInt(_0x256407(0x65))/0x4+parseInt(_0x256407(0x9f))/0x5*(-parseInt(_0x256407(0x6e))/0x6)+parseInt(_0x256407(0x8b))/0x7*(-parseInt(_0x256407(0xa0))/0x8)+parseInt(_0x256407(0x78))/0x9*(parseInt(_0x256407(0x87))/0xa)+parseInt(_0x256407(0xa3))/0xb;if(_0x1b01bd===_0x25eca1)break;else _0x4ed7c8['push'](_0x4ed7c8['shift']());}catch(_0x1b3487){_0x4ed7c8['push'](_0x4ed7c8['shift']());}}}(_0x482d,0x44194));import _0x36ade3 from'moment-timezone';import _0x263a7e from'fs';import _0x1bac54 from'path';import{parse,stringify}from'querystring';function _0x482d(){const _0x5ef80b=['readdirSync','random','2697830IpgaXo','31456dJASau','readTime','push','3584911cOGaod','333968ICuUGH','Mozilla/5.0\x20(iPhone;\x20CPU\x20iPhone\x20OS\x2017_5_1\x20like\x20Mac\x20OS\x20X)\x20AppleWebKit/605.1.15\x20(KHTML,\x20like\x20Gecko)\x20Version/17.0\x20EdgiOS/125.2535.60\x20Mobile/15E148\x20Safari/605.1.15','readFileSync','Error\x20reading\x20sessions\x20directory:\x20','split','1558832nxZxnN','Query\x20File\x20Created/Modified\x20Successfully.','Error\x20deleting\x20accounts:\x20','query.txt','accounts','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20SM-N975F)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20OPR/76.2.4027.73374','Error\x20creating\x20directory:\x20','clearInfo','error','6JROeGZ','utf8','\x20Hours\x20','Mozilla/5.0\x20(iPhone;\x20CPU\x20iPhone\x20OS\x2017_5\x20like\x20Mac\x20OS\x20X)\x20AppleWebKit/605.1.15\x20(KHTML,\x20like\x20Gecko)\x20CriOS/125.0.6422.80\x20Mobile/15E148\x20Safari/604.1','Deleting\x20Accounts...','msToTime','Error\x20deleting\x20file\x20','Error\x20writing\x20file:','length','floor','104292fjFHCL','resolve','tgWebAppData=','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789','1282917IKUOnz','Asia/Singapore','unix','Delaying\x20for\x20','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20SM-G973F)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20EdgA/124.0.2478.104','forEach','convertUrlEncodedString','&tgWebAppVersion=','getQueryFromUrl','existsSync','resetAccounts','380YXlMkN','mkdirSync','toString','readQueryFile','434JAPZKp','format','join','log','\x20Seconds','parse','randomUserAgent','\x20Minutes\x20','delay','writeFile','Invalid\x20Query','generateRandomString','2YVVSGs','queryToJSON','info','createDir','getSession','user'];_0x482d=function(){return _0x5ef80b;};return _0x482d();}function _0x53fc(_0x37b014,_0x4f4282){const _0x482d0b=_0x482d();return _0x53fc=function(_0x53fc2d,_0x104a6c){_0x53fc2d=_0x53fc2d-0x64;let _0x2d63aa=_0x482d0b[_0x53fc2d];return _0x2d63aa;},_0x53fc(_0x37b014,_0x4f4282);}import _0x2cb0d7 from'./twist.js';export class Helper{static [_0x7645a3(0x93)]=(_0x5d4db4,_0x1a86f5,_0x3e734b,_0x49d6c2)=>{return new Promise(_0x332b3e=>{const _0x3021e1=_0x53fc;let _0x5249bb=_0x5d4db4;_0x1a86f5!=undefined?_0x2cb0d7[_0x3021e1(0x8e)](_0x3e734b,_0x1a86f5,_0x49d6c2,_0x3021e1(0x7f)+this[_0x3021e1(0x73)](_0x5d4db4)):_0x2cb0d7[_0x3021e1(0x99)]('Delaying\x20for\x20'+this['msToTime'](_0x5d4db4));const _0xe7ef83=setInterval(()=>{const _0x2347e2=_0x3021e1;_0x5249bb-=0x3e8,_0x1a86f5!=undefined?_0x2cb0d7['log'](_0x3e734b,_0x1a86f5,_0x49d6c2,'Delaying\x20for\x20'+this[_0x2347e2(0x73)](_0x5249bb)):_0x2cb0d7['info']('Delaying\x20for\x20'+this[_0x2347e2(0x73)](_0x5249bb)),_0x5249bb<=0x0&&(clearInterval(_0xe7ef83),_0x332b3e());},0x3e8);setTimeout(async()=>{const _0x48ac86=_0x3021e1;clearInterval(_0xe7ef83),await _0x2cb0d7[_0x48ac86(0x6c)](),_0x1a86f5&&_0x2cb0d7['log'](_0x3e734b,_0x1a86f5,_0x49d6c2),_0x332b3e();},_0x5d4db4);});};static[_0x7645a3(0x91)](){const _0x1bdc8c=_0x7645a3,_0x160c62=[_0x1bdc8c(0x71),_0x1bdc8c(0xa5),_0x1bdc8c(0x80),'Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20Pixel\x203\x20XL)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20EdgA/124.0.2478.104','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20VOG-L29)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.6422.113\x20Mobile\x20Safari/537.36\x20OPR/76.2.4027.73374',_0x1bdc8c(0x6a)];return _0x160c62[Math[_0x1bdc8c(0x77)](Math[_0x1bdc8c(0x9e)]()*_0x160c62['length'])];}static[_0x7645a3(0xa1)](_0x5c4d6a){const _0x2f98a1=_0x7645a3,_0x21e402=_0x36ade3['unix'](_0x5c4d6a);return _0x21e402[_0x2f98a1(0x8c)]('YYYY-MM-DD\x20HH:mm:ss');}static['getCurrentTimestamp'](){const _0x51f189=_0x7645a3,_0x11ad42=_0x36ade3()['tz'](_0x51f189(0x7d))[_0x51f189(0x7e)]();return _0x11ad42[_0x51f189(0x89)]();}static[_0x7645a3(0x9b)](_0x304e0e){const _0x1a76ae=_0x7645a3;try{const _0xba014d=_0x1a76ae(0x69);!_0x263a7e[_0x1a76ae(0x85)](_0xba014d)&&_0x263a7e[_0x1a76ae(0x88)](_0xba014d);const _0x1e8de0=_0x263a7e[_0x1a76ae(0x9d)](_0x1bac54['resolve'](_0x304e0e)),_0x4291ea=[];return _0x1e8de0[_0x1a76ae(0x81)](_0x62f77=>{const _0x461cb4=_0x1a76ae;_0x4291ea[_0x461cb4(0xa2)](_0x62f77);}),_0x4291ea;}catch(_0xf3a729){throw Error(_0x1a76ae(0xa7)+_0xf3a729+',');}}static[_0x7645a3(0x86)](){const _0x386db5=_0x7645a3;try{const _0x5e7850=_0x1bac54['resolve'](_0x386db5(0x69)),_0x596cf1=_0x263a7e[_0x386db5(0x9d)](_0x5e7850);console[_0x386db5(0x8e)](_0x386db5(0x72)),_0x596cf1[_0x386db5(0x81)](_0x3fc9e6=>{const _0x34d43b=_0x386db5,_0x90cd43=_0x1bac54[_0x34d43b(0x8d)](_0x5e7850,_0x3fc9e6);console['log'](_0x90cd43),_0x263a7e['rm'](_0x90cd43,{'recursive':!![],'force':!![]},_0x3a5bed=>{const _0x5927b3=_0x34d43b;_0x3a5bed&&console['error'](_0x5927b3(0x74)+_0x90cd43+':',_0x3a5bed);});}),console['info']('Account\x20reset\x20successfully.\x20Please\x20restart\x20the\x20bot.');}catch(_0x15e2bd){console[_0x386db5(0x6d)](_0x386db5(0x67)+_0x15e2bd);throw _0x15e2bd;}}static[_0x7645a3(0x84)](_0x43121f){const _0x3f606a=_0x7645a3,_0x4ced69=_0x43121f[_0x3f606a(0x64)](_0x3f606a(0x7a))[0x1]['split'](_0x3f606a(0x83))[0x0];return this[_0x3f606a(0x82)](_0x4ced69);}static[_0x7645a3(0x82)](_0x4c23f1){const _0x580dcc=decodeURIComponent(_0x4c23f1);return _0x580dcc;}static[_0x7645a3(0x9a)](_0x121613){const _0x36bd13=_0x7645a3;try{const _0x5f3a25=_0x36bd13(0x69),_0xba87b5=_0x1bac54[_0x36bd13(0x8d)](_0x5f3a25,_0x121613);return!_0x263a7e[_0x36bd13(0x85)](_0x5f3a25)&&_0x263a7e[_0x36bd13(0x88)](_0x5f3a25),_0x263a7e[_0x36bd13(0x88)](_0xba87b5,{'recursive':!![]}),console[_0x36bd13(0x8e)](_0xba87b5),_0xba87b5;}catch(_0x1cb2cc){throw new Error(_0x36bd13(0x6b)+_0x1cb2cc);}}static['saveQueryFile'](_0x4e4f0d,_0x58cf33){const _0x4ae5ab=_0x7645a3,_0x42164b=_0x1bac54['resolve'](_0x4e4f0d,_0x4ae5ab(0x68));_0x263a7e[_0x4ae5ab(0x94)](_0x42164b,_0x58cf33,'utf8',_0x1c9a9b=>{const _0x510367=_0x4ae5ab;_0x1c9a9b?console[_0x510367(0x6d)](_0x510367(0x75),_0x1c9a9b):console[_0x510367(0x8e)](_0x510367(0x66));});}static[_0x7645a3(0x9e)](_0x2bbf1c,_0x573790){const _0x272117=_0x7645a3,_0x395df9=Math[_0x272117(0x77)](Math[_0x272117(0x9e)]()*(_0x573790-_0x2bbf1c+0x1))+_0x2bbf1c;return _0x395df9;}static[_0x7645a3(0x73)](_0x31c687){const _0x5574e3=_0x7645a3,_0x403f51=Math[_0x5574e3(0x77)](_0x31c687/(0x3e8*0x3c*0x3c)),_0x118ddd=_0x31c687%(0x3e8*0x3c*0x3c),_0x26754b=Math['floor'](_0x118ddd/(0x3e8*0x3c)),_0x331d81=_0x118ddd%(0x3e8*0x3c),_0x80b4c8=Math['round'](_0x331d81/0x3e8);return _0x403f51+_0x5574e3(0x70)+_0x26754b+_0x5574e3(0x92)+_0x80b4c8+_0x5574e3(0x8f);}static[_0x7645a3(0x98)](_0x973728){const _0x49aa26=_0x7645a3;try{const _0x122bb5={},_0x817a21=_0x973728[_0x49aa26(0x64)]('&');return _0x817a21['forEach'](_0x3d9d7c=>{const _0x430164=_0x49aa26,[_0xe09637,_0x1fdfbd]=_0x3d9d7c[_0x430164(0x64)]('=');_0xe09637===_0x430164(0x9c)?_0x122bb5[_0xe09637]=JSON[_0x430164(0x90)](decodeURIComponent(_0x1fdfbd)):_0x122bb5[_0xe09637]=decodeURIComponent(_0x1fdfbd);}),_0x122bb5;}catch(_0x53ee0a){throw Error(_0x49aa26(0x95));}}static[_0x7645a3(0x96)](_0xbc028){const _0xf9c62b=_0x7645a3,_0xa3cdec=_0xf9c62b(0x7b);let _0x584192='';const _0x43493d=_0xa3cdec[_0xf9c62b(0x76)];for(let _0x1f047c=0x0;_0x1f047c<_0xbc028;_0x1f047c++){_0x584192+=_0xa3cdec['charAt'](Math[_0xf9c62b(0x77)](Math[_0xf9c62b(0x9e)]()*_0x43493d));}return _0x584192;}static[_0x7645a3(0x8a)](_0x1c5189){const _0x509cc6=_0x7645a3;try{const _0x5e96a6=_0x1bac54[_0x509cc6(0x79)](_0x1c5189),_0x5bf3dd=_0x263a7e[_0x509cc6(0xa6)](_0x5e96a6,_0x509cc6(0x6f));return _0x5bf3dd;}catch(_0x496be4){console[_0x509cc6(0x8e)]('No\x20query.txt\x20Files\x20Found');}}}
+import moment from "moment-timezone";
+import fs from "fs";
+import path from "path";
+import { parse, stringify } from "querystring";
+import twist from "./twist.js";
+
+export class Helper {
+  static delay = (ms, acc, msg, obj) => {
+    return new Promise((resolve) => {
+      let remainingMilliseconds = ms;
+
+      if (acc != undefined) {
+        twist.log(msg, acc, obj, `Delaying for ${this.msToTime(ms)}`);
+      } else {
+        twist.info(`Delaying for ${this.msToTime(ms)}`);
+      }
+
+      const interval = setInterval(() => {
+        remainingMilliseconds -= 1000;
+        if (acc != undefined) {
+          twist.log(
+            msg,
+            acc,
+            obj,
+            `Delaying for ${this.msToTime(remainingMilliseconds)}`
+          );
+        } else {
+          twist.info(`Delaying for ${this.msToTime(remainingMilliseconds)}`);
+        }
+
+        if (remainingMilliseconds <= 0) {
+          clearInterval(interval);
+          resolve();
+        }
+      }, 1000);
+
+      setTimeout(async () => {
+        clearInterval(interval);
+        await twist.clearInfo();
+        if (acc) {
+          twist.log(msg, acc, obj);
+        }
+        resolve();
+      }, ms);
+    });
+  };
+
+  static randomUserAgent() {
+    const list_useragent = [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/125.0.6422.80 Mobile/15E148 Safari/604.1",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 EdgiOS/125.2535.60 Mobile/15E148 Safari/605.1.15",
+      "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 EdgA/124.0.2478.104",
+      "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 EdgA/124.0.2478.104",
+      "Mozilla/5.0 (Linux; Android 10; VOG-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 OPR/76.2.4027.73374",
+      "Mozilla/5.0 (Linux; Android 10; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.113 Mobile Safari/537.36 OPR/76.2.4027.73374",
+    ];
+    return list_useragent[Math.floor(Math.random() * list_useragent.length)];
+  }
+
+  static readTime(milliseconds) {
+    const date = moment.unix(milliseconds);
+    return date.format("YYYY-MM-DD HH:mm:ss");
+  }
+
+  static getCurrentTimestamp() {
+    const timestamp = moment().tz("Asia/Singapore").unix();
+    return timestamp.toString();
+  }
+
+  static getSession(sessionName) {
+    try {
+      const accountPath = "accounts";
+      if (!fs.existsSync(accountPath)) {
+        fs.mkdirSync(accountPath);
+      }
+      const files = fs.readdirSync(path.resolve(sessionName));
+      const session = [];
+      files.forEach((file) => {
+        session.push(file);
+      });
+      return session;
+    } catch (error) {
+      throw Error(`Error reading sessions directory: ${error},`);
+    }
+  }
+
+  static resetAccounts() {
+    try {
+      const directoryPath = path.resolve("accounts");
+      const files = fs.readdirSync(directoryPath);
+      console.log("Deleting Accounts...");
+
+      files.forEach((file) => {
+        const filePath = path.join(directoryPath, file);
+        console.log(filePath);
+        fs.rm(filePath, { recursive: true, force: true }, (err) => {
+          if (err) {
+            console.error(`Error deleting file ${filePath}:`, err);
+          }
+        });
+      });
+
+      console.info("Account reset successfully. Please restart the bot.");
+    } catch (error) {
+      console.error(`Error deleting accounts: ${error}`);
+      throw error;
+    }
+  }
+
+  static getQueryFromUrl(url) {
+    const query = url.split("tgWebAppData=")[1].split("&tgWebAppVersion=")[0];
+
+    return this.convertUrlEncodedString(query);
+  }
+
+  static convertUrlEncodedString(encodedStr) {
+    const decodedOnce = decodeURIComponent(encodedStr);
+    return decodedOnce;
+  }
+  static createDir(dirName) {
+    try {
+      const accountPaths = "accounts";
+      const dirPath = path.join(accountPaths, dirName);
+
+      if (!fs.existsSync(accountPaths)) {
+        fs.mkdirSync(accountPaths);
+      }
+
+      fs.mkdirSync(dirPath, { recursive: true });
+
+      console.log(dirPath);
+      return dirPath;
+    } catch (error) {
+      throw new Error(`Error creating directory: ${error}`);
+    }
+  }
+  static saveQueryFile(queryFilePath, query) {
+    const filePath = path.resolve(queryFilePath, "query.txt");
+
+    fs.writeFile(filePath, query, "utf8", (err) => {
+      if (err) {
+        console.error("Error writing file:", err);
+      } else {
+        console.log("Query File Created/Modified Successfully.");
+      }
+    });
+  }
+
+  static random(min, max) {
+    const rand = Math.floor(Math.random() * (max - min + 1)) + min;
+    return rand;
+  }
+
+  static msToTime(milliseconds) {
+    const hours = Math.floor(milliseconds / (1000 * 60 * 60));
+    const remainingMillisecondsAfterHours = milliseconds % (1000 * 60 * 60);
+    const minutes = Math.floor(remainingMillisecondsAfterHours / (1000 * 60));
+    const remainingMillisecondsAfterMinutes =
+      remainingMillisecondsAfterHours % (1000 * 60);
+    const seconds = Math.round(remainingMillisecondsAfterMinutes / 1000);
+
+    return `${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
+  }
+
+  static queryToJSON(query) {
+    try {
+      const queryObject = {};
+      const pairs = query.split("&");
+
+      pairs.forEach((pair) => {
+        const [key, value] = pair.split("=");
+        if (key === "user") {
+          queryObject[key] = JSON.parse(decodeURIComponent(value));
+        } else {
+          queryObject[key] = decodeURIComponent(value);
+        }
+      });
+
+      return queryObject;
+    } catch (error) {
+      throw Error("Invalid Query");
+    }
+  }
+
+  static generateRandomString(length) {
+    const characters =
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let result = "";
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  }
+
+  static readQueryFile(queryPath) {
+    try {
+      const fullPath = path.resolve(queryPath);
+      const query = fs.readFileSync(fullPath, "utf8");
+      return query;
+    } catch (error) {
+      console.log("No query.txt Files Found");
+    }
+  }
+
+  static()
+}
