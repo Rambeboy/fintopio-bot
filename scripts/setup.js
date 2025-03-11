@@ -1,1 +1,61 @@
-const _0x5f403e=_0x22f5;(function(_0x31450f,_0x1dea4c){const _0x32b0c2=_0x22f5,_0x2c8a1f=_0x31450f();while(!![]){try{const _0x3fef60=-parseInt(_0x32b0c2(0x1f7))/0x1*(-parseInt(_0x32b0c2(0x20d))/0x2)+-parseInt(_0x32b0c2(0x204))/0x3+parseInt(_0x32b0c2(0x202))/0x4+parseInt(_0x32b0c2(0x207))/0x5+-parseInt(_0x32b0c2(0x208))/0x6+parseInt(_0x32b0c2(0x20e))/0x7*(parseInt(_0x32b0c2(0x200))/0x8)+-parseInt(_0x32b0c2(0x1f4))/0x9;if(_0x3fef60===_0x1dea4c)break;else _0x2c8a1f['push'](_0x2c8a1f['shift']());}catch(_0xde00b4){_0x2c8a1f['push'](_0x2c8a1f['shift']());}}}(_0x52e8,0x52b39));import _0x217efa from'fs';import _0x306d57 from'path';function _0x22f5(_0xb396b7,_0x2aa746){const _0x52e8e6=_0x52e8();return _0x22f5=function(_0x22f5fe,_0x47f2d0){_0x22f5fe=_0x22f5fe-0x1f2;let _0x837ef6=_0x52e8e6[_0x22f5fe];return _0x837ef6;},_0x22f5(_0xb396b7,_0x2aa746);}async function fileExists(_0xca3ee){const _0x386c1f=_0x22f5;try{return await _0x217efa[_0x386c1f(0x1f6)][_0x386c1f(0x20b)](_0xca3ee),!![];}catch{return![];}}async function copyFile(_0x43ede9,_0x971a75){const _0x5d07a9=_0x22f5;try{await fileExists(_0x971a75)?console[_0x5d07a9(0x1f3)]('File\x20already\x20exists\x20at\x20'+_0x971a75+_0x5d07a9(0x1fd)):(await _0x217efa[_0x5d07a9(0x1f6)][_0x5d07a9(0x206)](_0x43ede9,_0x971a75),console[_0x5d07a9(0x1f3)](_0x5d07a9(0x1fc)+_0x43ede9+'\x20to\x20'+_0x971a75));}catch(_0x7cc33f){console[_0x5d07a9(0x1f8)](_0x5d07a9(0x203)+_0x43ede9+'\x20to\x20'+_0x971a75+':',_0x7cc33f);}}async function createFolder(_0x1904dc){const _0x3b9696=_0x22f5;try{const _0x2eff22=await _0x217efa[_0x3b9696(0x1f6)][_0x3b9696(0x20b)](_0x1904dc)['then'](()=>!![])[_0x3b9696(0x1f9)](()=>![]);!_0x2eff22&&(await _0x217efa['promises'][_0x3b9696(0x205)](_0x1904dc,{'recursive':!![]}),console[_0x3b9696(0x1f3)](_0x3b9696(0x1ff)+_0x1904dc));}catch(_0x26b813){console[_0x3b9696(0x1f8)](_0x3b9696(0x1fa)+_0x1904dc+':',_0x26b813);}}function _0x52e8(){const _0x2c2120=['log','6360246VVhOwK','\x0aSetup\x20Complete','promises','221KBuVxf','error','catch','Error\x20creating\x20folder\x20','config_tmp.js','Copied\x20',',\x20skipping\x20copy.','accounts','Created\x20folder:\x20','8XPWAHI','Copying\x20Template\x20File','1897536WfXTfl','Error\x20copying\x20file\x20from\x20','1864128gybKrS','mkdir','copyFile','3013540qcYlmZ','604830KKTQJL','join','config.js','access','config','3806cGElWy','1889755jCNcKH','proxy_list.js','proxy_list_tmp.js'];_0x52e8=function(){return _0x2c2120;};return _0x52e8();}const copyOperations=[{'src':_0x306d57[_0x5f403e(0x209)](_0x5f403e(0x20c),_0x5f403e(0x1fb)),'dest':_0x306d57[_0x5f403e(0x209)]('config',_0x5f403e(0x20a))},{'src':_0x306d57['join']('config',_0x5f403e(0x1f2)),'dest':_0x306d57['join']('config',_0x5f403e(0x20f))}];((async()=>{const _0x2b6db2=_0x5f403e;console['log'](_0x2b6db2(0x201)),await createFolder(_0x2b6db2(0x1fe)),await createFolder(_0x306d57[_0x2b6db2(0x209)]('app',_0x2b6db2(0x20c)));for(let {src:_0x181656,dest:_0x137efe}of copyOperations){await copyFile(_0x181656,_0x137efe);}console[_0x2b6db2(0x1f3)](_0x2b6db2(0x1f5)),console[_0x2b6db2(0x1f3)]('Open\x20And\x20Configure\x0a-\x20config/config.js\x0a-\x20config/proxy_list.js\x0a');})());
+import fs from "fs";
+import path from "path";
+
+async function fileExists(filePath) {
+  try {
+    await fs.promises.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function copyFile(src, dest) {
+  try {
+    if (await fileExists(dest)) {
+      console.log(`File already exists at ${dest}, skipping copy.`);
+    } else {
+      await fs.promises.copyFile(src, dest);
+      console.log(`Copied ${src} to ${dest}`);
+    }
+  } catch (err) {
+    console.error(`Error copying file from ${src} to ${dest}:`, err);
+  }
+}
+
+async function createFolder(folderPath) {
+  try {
+    const folderExists = await fs.promises
+      .access(folderPath)
+      .then(() => true)
+      .catch(() => false);
+
+    if (!folderExists) {
+      await fs.promises.mkdir(folderPath, { recursive: true });
+      console.log(`Created folder: ${folderPath}`);
+    }
+  } catch (err) {
+    console.error(`Error creating folder ${folderPath}:`, err);
+  }
+}
+
+const copyOperations = [
+  {
+    src: path.join("config", "config_tmp.js"),
+    dest: path.join("config", "config.js"),
+  },
+  {
+    src: path.join("config", "proxy_list_tmp.js"),
+    dest: path.join("config", "proxy_list.js"),
+  },
+];
+
+(async () => {
+  console.log(`Copying Template File`);
+  await createFolder("accounts");
+  for (let { src, dest } of copyOperations) {
+    await copyFile(src, dest);
+  }
+  console.log(`\nSetup Complete`);
+  console.log(`Open And Configure\n- config/config.js\n- config/proxy_list.js`);
+})();
