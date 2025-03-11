@@ -1,1 +1,302 @@
-const _0x550ae1=_0x3eb9;(function(_0xdbc6e7,_0x32e585){const _0x6b820a=_0x3eb9,_0x309158=_0xdbc6e7();while(!![]){try{const _0x4ba79a=parseInt(_0x6b820a(0x17d))/0x1*(-parseInt(_0x6b820a(0x167))/0x2)+-parseInt(_0x6b820a(0x16d))/0x3*(-parseInt(_0x6b820a(0x151))/0x4)+-parseInt(_0x6b820a(0x190))/0x5+-parseInt(_0x6b820a(0x157))/0x6*(parseInt(_0x6b820a(0x154))/0x7)+parseInt(_0x6b820a(0x164))/0x8*(parseInt(_0x6b820a(0x182))/0x9)+parseInt(_0x6b820a(0x187))/0xa+-parseInt(_0x6b820a(0x14d))/0xb*(parseInt(_0x6b820a(0x186))/0xc);if(_0x4ba79a===_0x32e585)break;else _0x309158['push'](_0x309158['shift']());}catch(_0x471ca1){_0x309158['push'](_0x309158['shift']());}}}(_0x3234,0x18cc5));function _0x3234(){const _0x124c5f=['timings','Successfully\x20Check\x20In...','message','\x20reward\x20claimed\x20successfully,\x20got\x20','claimTask','slug','Try\x20To\x20Check\x20In','getTasks','queryObj','claimDiamondReward','Try\x20to\x20Login...','random','256EWapuB','Getting\x20available\x20tasks....','\x20Started','farming','Claiming\x20task\x20','171iJiZDW','/api/hold/tasks','login','getUser','13056jycRQg','1709180VgSzhy','Claiming\x20farming\x20reward','POST','user','/api/farming/claim','Task\x20','Successfully\x20claim\x20farming\x20reward...','Successfully\x20claiming\x20diamond\x20breaking\x20reward...','msToTime','87215IuncsY','Successfully\x20Get\x20user\x20Data','startFarming','getDiamondState','clickerDiamondState','GET','2519LGsrbN','Starting\x20task\x20','rewardAmount','query','326684ClhUhu','fetch','/claim','645666AIpRNM','finish','account','6tINRPi','status','getFarmStatus','tasks','...','\x20Hold\x20Point.','token','Successfully\x20Login','Successfully\x20get\x20available\x20task','diamondNumber','/api/clicker/diamond/complete','/api/daily-checkins','/api/hold/fast/init','74672IPSujO','delay','/api/farming/farm','400gjdrfb','/api/hold/tasks/','diamond','claimFarming','Error\x20:\x20','/api/referrals/data','6vQzfKe','checkIn','Successfully\x20Start\x20Farming,\x20Farming\x20will\x20be\x20end\x20in\x20next\x20','https://fintopio-tg.fintopio.com'];_0x3234=function(){return _0x124c5f;};return _0x3234();}import{API}from'../api/api.js';function _0x3eb9(_0x499f5f,_0x95da32){const _0x3234f4=_0x3234();return _0x3eb9=function(_0x3eb926,_0x5b3ed2){_0x3eb926=_0x3eb926-0x14d;let _0xe99e76=_0x3234f4[_0x3eb926];return _0xe99e76;},_0x3eb9(_0x499f5f,_0x95da32);}import{Helper}from'../utils/helper.js';import _0x2264c5 from'../utils/logger.js';export class Fintopio extends API{constructor(_0x2b3eff,_0x112351,_0x2e8c70,_0x187760){const _0x46591c=_0x3eb9;super(_0x112351,_0x46591c(0x170),_0x187760),this[_0x46591c(0x156)]=_0x2b3eff,this[_0x46591c(0x150)]=_0x112351,this[_0x46591c(0x179)]=_0x2e8c70;}async[_0x550ae1(0x184)](){const _0x2ca04b=_0x550ae1;try{await Helper[_0x2ca04b(0x165)](0x1f4,this[_0x2ca04b(0x156)],_0x2ca04b(0x17b),this);const _0x5be6a6=await this[_0x2ca04b(0x152)]('/api/auth/telegram?'+this[_0x2ca04b(0x150)],'GET',undefined);await Helper[_0x2ca04b(0x165)](0x3e8,this[_0x2ca04b(0x156)],_0x2ca04b(0x15e),this),this[_0x2ca04b(0x15d)]=_0x5be6a6[_0x2ca04b(0x15d)];}catch(_0x4c07eb){throw _0x4c07eb;}}async[_0x550ae1(0x185)](_0x5d661a=![]){const _0x53bf5a=_0x550ae1;try{if(_0x5d661a)await Helper['delay'](0x1f4,this[_0x53bf5a(0x156)],'Getting\x20user\x20data...',this);const _0x1fbd3c=await this['fetch'](_0x53bf5a(0x16c),_0x53bf5a(0x195),this[_0x53bf5a(0x15d)]);if(_0x1fbd3c[_0x53bf5a(0x158)]==0xc8){if(_0x5d661a)await Helper[_0x53bf5a(0x165)](0x3e8,this['account'],_0x53bf5a(0x191),this);this[_0x53bf5a(0x18a)]=_0x1fbd3c;}else await Helper[_0x53bf5a(0x165)](0x1388,this[_0x53bf5a(0x156)],_0x53bf5a(0x16b)+_0x1fbd3c[_0x53bf5a(0x173)],this);}catch(_0x20709a){throw _0x20709a;}}async[_0x550ae1(0x192)](){const _0x529088=_0x550ae1;try{await Helper[_0x529088(0x165)](0x1f4,this[_0x529088(0x156)],'Starting\x20farm...',this);const _0x475ab4=await this['fetch'](_0x529088(0x166),_0x529088(0x189),this[_0x529088(0x15d)]);_0x475ab4[_0x529088(0x158)]==0xc8?(await Helper[_0x529088(0x165)](0x3e8,this['account'],_0x529088(0x16f)+Helper[_0x529088(0x18f)](_0x475ab4[_0x529088(0x171)][_0x529088(0x155)]),this),this[_0x529088(0x180)]=_0x475ab4):(await Helper['delay'](0x3e8,this[_0x529088(0x156)],_0x475ab4[_0x529088(0x173)],this),await this[_0x529088(0x159)]());}catch(_0x895e93){throw _0x895e93;}}async[_0x550ae1(0x16a)](){const _0x443050=_0x550ae1;try{await Helper['delay'](0x1f4,this[_0x443050(0x156)],_0x443050(0x188),this);const _0x5c5bbe=await this['fetch'](_0x443050(0x18b),_0x443050(0x189),this[_0x443050(0x15d)]);_0x5c5bbe[_0x443050(0x158)]==0xc8?(await Helper['delay'](0xbb8,this[_0x443050(0x156)],_0x443050(0x18d),this),await this[_0x443050(0x185)](),await this[_0x443050(0x159)]()):await Helper[_0x443050(0x165)](0xbb8,this[_0x443050(0x156)],_0x5c5bbe[_0x443050(0x173)],this);}catch(_0x1884e5){throw _0x1884e5;}}async[_0x550ae1(0x16e)](){const _0x54f271=_0x550ae1;try{await Helper[_0x54f271(0x165)](0x1f4,this['account'],_0x54f271(0x177),this);const _0x330823=await this[_0x54f271(0x152)](_0x54f271(0x162),'POST',this[_0x54f271(0x15d)]);_0x330823[_0x54f271(0x158)]==0xc8?await Helper[_0x54f271(0x165)](0x3e8,this[_0x54f271(0x156)],_0x54f271(0x172),this):await Helper[_0x54f271(0x165)](0x7d0,this[_0x54f271(0x156)],_0x330823[_0x54f271(0x173)],this),await this[_0x54f271(0x185)]();}catch(_0x1af75f){throw _0x1af75f;}}async[_0x550ae1(0x159)](){const _0x3fc937=_0x550ae1;try{const _0x1a248e=await this['fetch']('/api/farming/state',_0x3fc937(0x195),this[_0x3fc937(0x15d)]);_0x1a248e[_0x3fc937(0x158)]==0xc8?this[_0x3fc937(0x180)]=_0x1a248e:await Helper[_0x3fc937(0x165)](0xbb8,this[_0x3fc937(0x156)],_0x1a248e['message'],this);}catch(_0x3b3cd6){throw _0x3b3cd6;}}async[_0x550ae1(0x193)](){const _0x571a32=_0x550ae1;try{const _0x4bac40=await this['fetch'](_0x571a32(0x163),_0x571a32(0x195),this['token']);_0x4bac40['status']==0xc8?this[_0x571a32(0x169)]=_0x4bac40[_0x571a32(0x194)]:await Helper[_0x571a32(0x165)](0xbb8,this['account'],_0x4bac40['message'],this);}catch(_0x78216b){throw _0x78216b;}}async[_0x550ae1(0x17a)](){const _0x1f2608=_0x550ae1;try{await Helper[_0x1f2608(0x165)](Helper[_0x1f2608(0x17c)](0x2710,0x4e20),this['account'],'Try\x20To\x20Breaking\x20And\x20Claim\x20Diamond',this);const _0x37e767=await this[_0x1f2608(0x152)](_0x1f2608(0x161),'POST',this[_0x1f2608(0x15d)],{'diamondNumber':this['diamond'][_0x1f2608(0x160)]});_0x37e767[_0x1f2608(0x158)]==0xc8?(await Helper[_0x1f2608(0x165)](0x3e8,this[_0x1f2608(0x156)],_0x1f2608(0x18e),this),await this[_0x1f2608(0x193)](),await this[_0x1f2608(0x185)]()):await Helper[_0x1f2608(0x165)](0x7d0,this[_0x1f2608(0x156)],_0x37e767[_0x1f2608(0x173)],this),await this[_0x1f2608(0x185)]();}catch(_0x5729f7){throw _0x5729f7;}}async[_0x550ae1(0x178)](_0x2bd46f){const _0x98e97f=_0x550ae1;try{if(_0x2bd46f)await Helper['delay'](0x1f4,this[_0x98e97f(0x156)],_0x98e97f(0x17e),this);const _0x788e94=await this['fetch'](_0x98e97f(0x183),'GET',this[_0x98e97f(0x15d)]);if(_0x788e94[_0x98e97f(0x158)]==0xc8){this[_0x98e97f(0x15a)]=_0x788e94['tasks'];if(_0x2bd46f)await Helper['delay'](0x3e8,this[_0x98e97f(0x156)],_0x98e97f(0x15f),this);}else await Helper[_0x98e97f(0x165)](0xbb8,this[_0x98e97f(0x156)],_0x788e94[_0x98e97f(0x173)],this);}catch(_0x43f7d0){throw _0x43f7d0;}}async[_0x550ae1(0x175)](_0x363c7e){const _0x791087=_0x550ae1;try{await Helper['delay'](0x1f4,this[_0x791087(0x156)],_0x791087(0x181)+_0x363c7e['slug']+_0x791087(0x15b),this);const _0x1b9ddd=await this['fetch']('/api/hold/tasks/'+_0x363c7e['id']+_0x791087(0x153),_0x791087(0x189),this[_0x791087(0x15d)]);_0x1b9ddd[_0x791087(0x158)]==0xc8?(await Helper[_0x791087(0x165)](0x3e8,this[_0x791087(0x156)],_0x791087(0x18c)+_0x363c7e[_0x791087(0x176)]+_0x791087(0x174)+_0x363c7e[_0x791087(0x14f)]+_0x791087(0x15c),this),await this[_0x791087(0x185)](),await this[_0x791087(0x178)]()):await Helper['delay'](0xbb8,this['account'],_0x1b9ddd[_0x791087(0x173)],this);}catch(_0xd86250){throw _0xd86250;}}async['startTask'](_0x5d1f12){const _0xdb5674=_0x550ae1;try{await Helper['delay'](0x1f4,this[_0xdb5674(0x156)],_0xdb5674(0x14e)+_0x5d1f12[_0xdb5674(0x176)]+'...',this);const _0x3881f6=await this['fetch'](_0xdb5674(0x168)+_0x5d1f12['id']+'/start','POST',this[_0xdb5674(0x15d)]);_0x3881f6[_0xdb5674(0x158)]==0xc8?(await Helper[_0xdb5674(0x165)](0x3e8,this[_0xdb5674(0x156)],'Task\x20'+_0x5d1f12[_0xdb5674(0x176)]+_0xdb5674(0x17f),this),await this[_0xdb5674(0x178)](),await this['claimTask'](_0x5d1f12)):await Helper[_0xdb5674(0x165)](0xbb8,this[_0xdb5674(0x156)],_0x3881f6[_0xdb5674(0x173)],this);}catch(_0xcd0ee0){throw _0xcd0ee0;}}}
+import { API } from "../api/api.js";
+import { Helper } from "../utils/helper.js";
+import logger from "../utils/logger.js";
+
+export class Fintopio extends API {
+  constructor(account, query, queryObj, proxy) {
+    super(query, "https://api.fintopio.com", proxy);
+    this.account = account;
+    this.query = query;
+    this.queryObj = queryObj;
+  }
+
+  async login() {
+    try {
+      await Helper.delay(500, this.account, `Try to Login...`, this);
+      const res = await this.fetch(
+        `/auth/telegram?${this.query}`,
+        "GET",
+        undefined
+      );
+
+      await Helper.delay(1000, this.account, `Successfully Login`, this);
+      this.token = res.token;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async getUser(msg = false) {
+    try {
+      if (msg)
+        await Helper.delay(500, this.account, `Getting user data...`, this);
+      const res = await this.fetch("/fast/init", "GET", this.token);
+
+      if (res.status == 200) {
+        if (msg)
+          await Helper.delay(
+            1000,
+            this.account,
+            `Successfully Get user Data`,
+            this
+          );
+
+        this.user = res.profile;
+        this.balance = res.balance.balance;
+      } else {
+        await Helper.delay(5000, this.account, `Error : ${res.message}`, this);
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+  async startFarming() {
+    try {
+      await Helper.delay(500, this.account, `Starting farm...`, this);
+      const res = await this.fetch("/farming/farm", "POST", this.token);
+
+      if (res.status == 200) {
+        await Helper.delay(
+          1000,
+          this.account,
+          `Successfully Start Farming, Farming will be end in next ${Helper.msToTime(
+            res.timings.finish
+          )}`,
+          this
+        );
+
+        this.farming = res;
+      } else {
+        await Helper.delay(1000, this.account, res.message, this);
+        await this.getFarmStatus();
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+  async claimFarming() {
+    try {
+      await Helper.delay(500, this.account, `Claiming farming reward`, this);
+      const res = await this.fetch("/farming/claim", "POST", this.token);
+
+      if (res.status == 200) {
+        await Helper.delay(
+          3000,
+          this.account,
+          `Successfully claim farming reward...`,
+          this
+        );
+
+        await this.getUser();
+        await this.getFarmStatus();
+      } else {
+        await Helper.delay(3000, this.account, res.message, this);
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+  async checkIn() {
+    try {
+      await Helper.delay(500, this.account, `Try To Check In`, this);
+      const res = await this.fetch("/daily-checkins", "POST", this.token);
+
+      if (res.status == 200) {
+        await Helper.delay(
+          1000,
+          this.account,
+          `Successfully Check In...`,
+          this
+        );
+      } else {
+        await Helper.delay(2000, this.account, res.message, this);
+      }
+      await this.getUser();
+    } catch (error) {
+      throw error;
+    }
+  }
+  async getFarmStatus() {
+    try {
+      const res = await this.fetch("/farming/state", "GET", this.token);
+
+      if (res.status == 200) {
+        this.farming = res;
+      } else {
+        await Helper.delay(3000, this.account, res.message, this);
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+  async getDiamondState() {
+    try {
+      const res = await this.fetch("/clicker/diamond/state", "GET", this.token);
+
+      if (res.status == 200) {
+        this.diamond = res;
+      } else {
+        await Helper.delay(3000, this.account, res.message, this);
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async playSpaceTapper() {
+    try {
+      const score = Helper.random(1000, 2500);
+      const res = await this.fetch(
+        "/hold/space-tappers/add-new-result",
+        "POST",
+        this.token,
+        {
+          score: score,
+          holdPoints: score * 2,
+          collectedGems: [],
+          additionalGame: false,
+          additionalLiveBoosts: 0,
+          rocketSkins: [],
+        }
+      );
+
+      if (res.status == 200) {
+        await Helper.delay(
+          3000,
+          this.account,
+          `Successfully play space tapper with score ${score}`,
+          this
+        );
+      } else {
+        await Helper.delay(
+          3000,
+          this.account,
+          `Space Tapper ${res.message}`,
+          this
+        );
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async claimDiamondReward() {
+    try {
+      await Helper.delay(
+        Helper.random(10000, 20000),
+        this.account,
+        `Try To Breaking And Claim Diamond`,
+        this
+      );
+      const res = await this.fetch(
+        "/clicker/diamond/complete",
+        "POST",
+        this.token,
+        { diamondNumber: this.diamond.diamondNumber }
+      );
+
+      if (res.status == 200) {
+        await Helper.delay(
+          1000,
+          this.account,
+          `Successfully claiming diamond breaking reward...`,
+          this
+        );
+        await this.getDiamondState();
+        await this.getUser();
+      } else {
+        await Helper.delay(2000, this.account, res.message, this);
+      }
+      await this.getUser();
+    } catch (error) {
+      throw error;
+    }
+  }
+  async getTasks(msg) {
+    try {
+      if (msg)
+        await Helper.delay(
+          500,
+          this.account,
+          `Getting available tasks....`,
+          this
+        );
+      const res = await this.fetch("/hold/tasks", "GET", this.token);
+
+      if (res.status == 200) {
+        this.tasks = res.tasks;
+        if (msg)
+          await Helper.delay(
+            1000,
+            this.account,
+            `Successfully get available task`,
+            this
+          );
+      } else {
+        await Helper.delay(3000, this.account, res.message, this);
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+  async claimTask(task) {
+    try {
+      await Helper.delay(
+        500,
+        this.account,
+        `Claiming task ${task.slug}...`,
+        this
+      );
+      const res = await this.fetch(
+        `/hold/tasks/${task.id}/claim`,
+        "POST",
+        this.token
+      );
+
+      if (res.status == 200) {
+        await Helper.delay(
+          1000,
+          this.account,
+          `Task ${task.slug} reward claimed successfully, got ${task.rewardAmount} Hold Point.`,
+          this
+        );
+        await this.getUser();
+        await this.getTasks();
+      } else {
+        await Helper.delay(3000, this.account, res.message, this);
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+  async startTask(task) {
+    try {
+      await Helper.delay(
+        500,
+        this.account,
+        `Starting task ${task.slug}...`,
+        this
+      );
+      const res = await this.fetch(
+        `/hold/tasks/${task.id}/start`,
+        "POST",
+        this.token
+      );
+
+      if (res.status == 200) {
+        await Helper.delay(
+          1000,
+          this.account,
+          `Task ${task.slug} Started`,
+          this
+        );
+        await this.getTasks();
+        await this.claimTask(task);
+      } else {
+        await Helper.delay(3000, this.account, res.message, this);
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
+}
