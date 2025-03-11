@@ -1,1 +1,156 @@
-function _0x116f(_0x347dff,_0x5193fb){const _0x4897a2=_0x4897();return _0x116f=function(_0x116f7f,_0x3917eb){_0x116f7f=_0x116f7f-0x1d5;let _0x3adb4c=_0x4897a2[_0x116f7f];return _0x3adb4c;},_0x116f(_0x347dff,_0x5193fb);}function _0x4897(){const _0x5779b9=['then','last_name','9lvsiOE','resolvePeer','clearInfo','first_name','Account\x20','getDiamondState','random','message','Diamond\x20Breaking\x20is\x20currently\x20unavailable...','includes','1321452sdoorC','BOT\x20STOPPED','stringify','msToTime','map','timings','disconnect','session','accounts/','init','1709832snLoCF','now','getTasks','7cbNZvm','info','AUTHOR\x20\x20:\x20NOFAN\x20RAMBE','status','Error\x20:\x20','user','139144ALIKDj','36gzaBUe','BOT\x20STARTED','client','\x20Processing\x20Complete,\x20Restarting\x20in\x205\x20seconds','getUser','619624CBNpGz','verified','lastName','useSession','Its\x20time\x20to\x20claim\x20farming\x20reward!!!','startFarming','\x20Proxy','all','queryToJSON','error','farming','checkIn','WELCOME\x20&\x20ENJOY\x20SIR!','2113464XjcomT','\x20before\x20restarting','finish','claimFarming','push','firstName','delay','accounts','clear','Delaying\x20for\x20','state','available','195135TqwqGU','claimTask',',\x20Retrying\x20after\x2010\x20Second','login','Application\x20Started','length','diamond','5981810qBoLqq'];_0x4897=function(){return _0x5779b9;};return _0x4897();}(function(_0x7493b2,_0x17adae){const _0x3bc771=_0x116f,_0x1b3233=_0x7493b2();while(!![]){try{const _0x699e00=parseInt(_0x3bc771(0x1ef))/0x1+parseInt(_0x3bc771(0x1f5))/0x2+-parseInt(_0x3bc771(0x1dc))/0x3+parseInt(_0x3bc771(0x1f0))/0x4*(-parseInt(_0x3bc771(0x20e))/0x5)+parseInt(_0x3bc771(0x1e6))/0x6*(parseInt(_0x3bc771(0x1e9))/0x7)+-parseInt(_0x3bc771(0x202))/0x8*(parseInt(_0x3bc771(0x218))/0x9)+parseInt(_0x3bc771(0x215))/0xa;if(_0x699e00===_0x17adae)break;else _0x1b3233['push'](_0x1b3233['shift']());}catch(_0x45704b){_0x1b3233['push'](_0x1b3233['shift']());}}}(_0x4897,0x436e7));import{Config}from'../config/config.js';import{proxyList}from'../config/proxy_list.js';import{Fintopio}from'./src/core/fintopio.js';import{Telegram}from'./src/core/telegram.js';import{Helper}from'./src/utils/helper.js';import _0x29c306 from'./src/utils/logger.js';import _0xecc607 from'./src/utils/twist.js';async function operation(_0x1206a2,_0x393967,_0xe3403d,_0x4c28e8){const _0x1cc861=_0x116f;try{const _0xac7b42=new Fintopio(_0x1206a2,_0x393967,_0xe3403d,_0x4c28e8);await _0xac7b42[_0x1cc861(0x211)](),await _0xac7b42[_0x1cc861(0x1f4)](!![]),await _0xac7b42[_0x1cc861(0x200)](),await _0xac7b42[_0x1cc861(0x1fa)](),await _0xac7b42[_0x1cc861(0x1d7)]();_0xac7b42[_0x1cc861(0x214)][_0x1cc861(0x20c)]=='available'?await _0xac7b42['claimDiamondReward']():await Helper[_0x1cc861(0x208)](0xbb8,_0x1206a2,_0x1cc861(0x1da),_0xac7b42);await _0xac7b42[_0x1cc861(0x1e8)](!![]);for(const _0x12234f of _0xac7b42['tasks']){if(_0x12234f['status']==_0x1cc861(0x20d))await _0xac7b42['startTask'](_0x12234f);else{if(_0x12234f[_0x1cc861(0x1ec)]==_0x1cc861(0x1f6))await _0xac7b42[_0x1cc861(0x20f)](_0x12234f);else continue;}}const _0x38fad6=_0xac7b42[_0x1cc861(0x1ff)][_0x1cc861(0x1e1)][_0x1cc861(0x204)],_0x401149=_0xac7b42['diamond'][_0x1cc861(0x1e1)]['nextAt'],_0x17898d=Date[_0x1cc861(0x1e7)]()+0xea60*0x3c,_0x59a328=_0x38fad6-Date[_0x1cc861(0x1e7)](),_0x2b4c23=_0x401149-Date[_0x1cc861(0x1e7)](),_0x240eab=_0x17898d-Date[_0x1cc861(0x1e7)](),_0x63742d=Math['min'](_0x59a328,_0x2b4c23,_0x240eab);await Helper['delay'](_0x63742d,_0x1206a2,_0x1cc861(0x20b)+Helper[_0x1cc861(0x1df)](_0x63742d)+_0x1cc861(0x203),_0xac7b42),_0x59a328<=0x0&&(await Helper[_0x1cc861(0x208)](Helper[_0x1cc861(0x1d8)](0xbb8,0x2710),_0x1206a2,_0x1cc861(0x1f9),_0xac7b42),await _0xac7b42[_0x1cc861(0x205)]()),await Helper[_0x1cc861(0x208)](0x1388,_0x1206a2,_0x1cc861(0x1d6)+_0x1206a2['id']+_0x1cc861(0x1f3),_0xac7b42),await operation(_0x1206a2,_0x393967,_0xe3403d,_0x4c28e8);}catch(_0x111d1a){_0xecc607['clear'](_0x1206a2),_0xecc607['clearInfo'](),await Helper[_0x1cc861(0x208)](0x2710,_0x1206a2,_0x1cc861(0x1ed)+_0x111d1a[_0x1cc861(0x1d9)]+_0x1cc861(0x210)),await operation(_0x1206a2,_0x393967,_0xe3403d,_0x4c28e8);}}let init=![];async function startBot(){return new Promise(async(_0x1668c6,_0x3c0c36)=>{const _0x3e8402=_0x116f;try{_0x29c306[_0x3e8402(0x1ea)](_0x3e8402(0x1f1));const _0x5ab56a=await new Telegram();init==![]&&(await _0x5ab56a[_0x3e8402(0x1e5)](),init=!![]);const _0x243d4a=Helper['getSession'](_0x3e8402(0x209)),_0x52a732=[];proxyList[_0x3e8402(0x213)]>0x0&&(_0x243d4a[_0x3e8402(0x213)]!=proxyList[_0x3e8402(0x213)]&&_0x3c0c36('You\x20have\x20'+_0x243d4a[_0x3e8402(0x213)]+'\x20Session\x20but\x20you\x20provide\x20'+proxyList[_0x3e8402(0x213)]+_0x3e8402(0x1fb)));for(const _0x51c48f of _0x243d4a){const _0x1d8a05=_0x243d4a['indexOf'](_0x51c48f),_0x4d9bad=proxyList[_0x3e8402(0x213)]>0x0?proxyList[_0x1d8a05]:undefined;if(!_0x51c48f[_0x3e8402(0x1db)]('query')){await _0x5ab56a[_0x3e8402(0x1f8)](_0x3e8402(0x1e4)+_0x51c48f,_0x4d9bad),_0x5ab56a[_0x3e8402(0x1e3)]=_0x51c48f;const _0xba6359=await _0x5ab56a[_0x3e8402(0x1f2)]['getMe'](),_0x102bb7=await _0x5ab56a[_0x3e8402(0x219)]()[_0x3e8402(0x216)](async()=>{return await _0x5ab56a['initWebView']();})['catch'](_0x1f8d71=>{throw _0x1f8d71;}),_0x3fc27d=Helper[_0x3e8402(0x1fd)](_0x102bb7);await _0x5ab56a[_0x3e8402(0x1e2)](),_0x52a732[_0x3e8402(0x206)]([_0xba6359,_0x102bb7,_0x3fc27d,_0x4d9bad]);}else{const _0x38c2d6=Helper['readQueryFile'](_0x3e8402(0x1e4)+_0x51c48f+'/query.txt'),_0x3713b6=Helper[_0x3e8402(0x1fd)](_0x38c2d6),_0x2dfe76=_0x3713b6[_0x3e8402(0x1ee)];_0x2dfe76[_0x3e8402(0x207)]=_0x2dfe76[_0x3e8402(0x1d5)],_0x2dfe76[_0x3e8402(0x1f7)]=_0x2dfe76[_0x3e8402(0x217)],_0x52a732['push']([_0x2dfe76,_0x38c2d6,_0x3713b6,_0x4d9bad]);}}const _0x20dd25=_0x52a732[_0x3e8402(0x1e0)](async _0x3f5ba1=>{await operation(_0x3f5ba1[0x0],_0x3f5ba1[0x1],_0x3f5ba1[0x2],_0x3f5ba1[0x3]);});await Promise[_0x3e8402(0x1fc)](_0x20dd25),_0x1668c6();}catch(_0x5f2323){_0x29c306[_0x3e8402(0x1ea)](_0x3e8402(0x1dd)),_0x29c306[_0x3e8402(0x1fe)](JSON[_0x3e8402(0x1de)](_0x5f2323)),_0x3c0c36(_0x5f2323);}});}((async()=>{const _0x2c7b79=_0x116f;try{_0x29c306['clear'](),_0x29c306['info'](),_0x29c306[_0x2c7b79(0x1ea)](_0x2c7b79(0x212)),console['log']('FINTOPIO\x20MINING\x20BOT'),console['log'](_0x2c7b79(0x1eb)),console['log'](_0x2c7b79(0x201)),await startBot();}catch(_0x466f96){_0xecc607[_0x2c7b79(0x20a)](),_0xecc607[_0x2c7b79(0x21a)](),console['log']('Error\x20During\x20executing\x20bot',_0x466f96),await startBot();}})());
+import { Config } from './config/config.js';
+import { proxyList } from './config/proxy_list.js';
+import { Fintopio } from './src/core/fintopio.js';
+import { Telegram } from './src/core/telegram.js';
+import { Helper } from './src/utils/helper.js';
+import a0_0x2382d4 from './src/utils/logger.js';
+import a0_0x248f8c from './src/utils/twist.js';
+async function operation(_0x16ac3a, _0x3cfe34, _0x114c94, _0x341035) {
+  try {
+    const _0x9ed08e = new Fintopio(_0x16ac3a, _0x3cfe34, _0x114c94, _0x341035);
+    await _0x9ed08e.login();
+    await _0x9ed08e.getUser(true);
+    await _0x9ed08e.getDiamondState();
+    await _0x9ed08e.checkIn();
+    await _0x9ed08e.startFarming();
+    if (_0x9ed08e.diamond.state == "available") {
+      await _0x9ed08e.claimDiamondReward();
+    } else {
+      await Helper.delay(0xbb8, _0x16ac3a, "Diamond Breaking is currently unavailable...", _0x9ed08e);
+    }
+    await _0x9ed08e.playSpaceTapper();
+    await _0x9ed08e.getTasks(true);
+    for (const _0x418425 of _0x9ed08e.tasks) {
+      if (_0x418425.status == "available") {
+        await _0x9ed08e.startTask(_0x418425);
+      } else {
+        if (_0x418425.status == "verified") {
+          await _0x9ed08e.claimTask(_0x418425);
+        } else {
+          continue;
+        }
+      }
+    }
+    const _0x4b8d0f = _0x9ed08e.farming.timings.finish;
+    const _0x484ecd = _0x9ed08e.diamond.timings.availableTo;
+    const _0x2f4fbc = Date.now() + 7200000;
+    const _0x1785be = _0x4b8d0f - Date.now();
+    const _0x10cb95 = _0x484ecd - Date.now();
+    const _0x4f7c17 = _0x2f4fbc - Date.now();
+    const _0x4d3080 = Math.min(_0x1785be, _0x10cb95, _0x4f7c17);
+    await Helper.delay(_0x4d3080, _0x16ac3a, "Delaying for " + Helper.msToTime(_0x4d3080) + " before restarting", _0x9ed08e);
+    if (_0x1785be <= 0x0) {
+      await Helper.delay(Helper.random(0xbb8, 0x2710), _0x16ac3a, "Its time to claim farming reward!!!", _0x9ed08e);
+      await _0x9ed08e.claimFarming();
+    }
+    await Helper.delay(0x1388, _0x16ac3a, "Account " + _0x16ac3a.id + " Processing Complete, Restarting in 5 seconds", _0x9ed08e);
+    await operation(_0x16ac3a, _0x3cfe34, _0x114c94, _0x341035);
+  } catch (_0x59361d) {
+    if (_0x59361d.message.includes("401")) {
+      if (_0x16ac3a.type == "query") {
+        await Helper.delay(0x3e8, _0x16ac3a, "Error : " + _0x59361d.message + ", Query Is Expired, Please Get New Query");
+      } else {
+        await Helper.delay(0x1388, _0x16ac3a, "Error : " + _0x59361d.message + ", Query Is Expired, Getting New Query in 5 Seconds");
+        const _0x4433f5 = new Telegram();
+        await _0x4433f5.useSession(_0x16ac3a.accounts, _0x341035);
+        const _0x25cac7 = await _0x4433f5.client.getMe();
+        _0x25cac7.type = 'sessions';
+        _0x25cac7.accounts = _0x16ac3a.accounts;
+        _0x25cac7.id = _0x25cac7.id.value;
+        const _0x3b38cb = await _0x4433f5.resolvePeer().then(async () => {
+          return await _0x4433f5.initWebView();
+        })["catch"](_0x5d351c => {
+          throw _0x5d351c;
+        });
+        const _0x29e1d2 = Helper.queryToJSON(_0x3b38cb);
+        await _0x4433f5.disconnect();
+        await Helper.delay(0x1388, _0x25cac7, "Successfully get new query");
+        await operation(_0x25cac7, _0x3b38cb, _0x29e1d2, _0x341035);
+      }
+    } else if (_0x59361d.message.includes("429")) {
+      await Helper.delay(300000, _0x16ac3a, "Error : " + _0x59361d.message + ", Retrying after 5 Minutes");
+      await operation(_0x16ac3a, _0x3cfe34, _0x114c94, _0x341035);
+    } else {
+      await Helper.delay(0x1388, _0x16ac3a, "Error : " + _0x59361d.message + ", Retrying after 5 Seconds");
+      await operation(_0x16ac3a, _0x3cfe34, _0x114c94, _0x341035);
+    }
+  }
+}
+let init = false;
+async function startBot() {
+  return new Promise(async (_0x24b6c8, _0x25d6c9) => {
+    try {
+      a0_0x2382d4.info("BOT STARTED");
+      const _0x3dd8b = await new Telegram();
+      if (init == false) {
+        await _0x3dd8b.init();
+        init = true;
+      }
+      const _0x4dcd76 = Helper.getSession('accounts');
+      const _0x1829d5 = [];
+      if (proxyList.length > 0x0) {
+        if (_0x4dcd76.length != proxyList.length) {
+          _0x25d6c9("You have " + _0x4dcd76.length + " Session but you provide " + proxyList.length + " Proxy");
+        }
+      }
+      for (const _0x2fe3f9 of _0x4dcd76) {
+        const _0x538467 = _0x4dcd76.indexOf(_0x2fe3f9);
+        const _0x47bef2 = proxyList.length > 0x0 ? proxyList[_0x538467] : undefined;
+        if (!_0x2fe3f9.includes("query")) {
+          await _0x3dd8b.useSession("accounts/" + _0x2fe3f9, _0x47bef2);
+          _0x3dd8b.session = _0x2fe3f9;
+          const _0x280f26 = await _0x3dd8b.client.getMe();
+          _0x280f26.type = "sessions";
+          _0x280f26.accounts = "accounts/" + _0x2fe3f9;
+          _0x280f26.id = _0x280f26.id.value;
+          const _0xe88757 = await _0x3dd8b.resolvePeer().then(async () => {
+            return await _0x3dd8b.initWebView();
+          })['catch'](_0x2b8a18 => {
+            throw _0x2b8a18;
+          });
+          const _0x2691f6 = Helper.queryToJSON(_0xe88757);
+          await _0x3dd8b.disconnect();
+          _0x1829d5.push([_0x280f26, _0xe88757, _0x2691f6, _0x47bef2]);
+        } else {
+          let _0x3b6f8e = Helper.readQueryFile('accounts/' + _0x2fe3f9 + "/query.txt");
+          let _0x364f41 = Helper.queryToJSON(_0x3b6f8e);
+          if (!_0x364f41.user) {
+            _0x364f41 = await Helper.queryToJSON(await Helper.launchParamToQuery(_0x3b6f8e));
+            _0x3b6f8e = await Helper.launchParamToQuery(_0x3b6f8e);
+          }
+          const _0x46e119 = _0x364f41.user;
+          _0x46e119.type = "query";
+          _0x46e119.accounts = "accounts/" + _0x2fe3f9;
+          _0x46e119.firstName = _0x46e119.first_name;
+          _0x46e119.lastName = _0x46e119.last_name;
+          _0x1829d5.push([_0x46e119, _0x3b6f8e, _0x364f41, _0x47bef2]);
+        }
+      }
+      const _0x24978e = _0x1829d5.map(async _0x5c6307 => {
+        await operation(_0x5c6307[0x0], _0x5c6307[0x1], _0x5c6307[0x2], _0x5c6307[0x3]);
+      });
+      await Promise.all(_0x24978e);
+      _0x24b6c8();
+    } catch (_0xa19891) {
+      a0_0x2382d4.info("BOT STOPPED");
+      a0_0x2382d4.error(JSON.stringify(_0xa19891));
+      _0x25d6c9(_0xa19891);
+    }
+  });
+}
+(async () => {
+  try {
+    a0_0x2382d4.clear();
+    a0_0x2382d4.info();
+    a0_0x2382d4.info("Application Started");
+    console.log("FINTOPIO MINING BOT");
+    console.log("AUTHOR : NOFAN RAMBE");
+    console.log("WELCOME & ENJOY SIR!");
+    await startBot();
+  } catch (_0x500a84) {
+    a0_0x248f8c.clear();
+    a0_0x248f8c.clearInfo();
+    console.log("Error During executing bot", _0x500a84);
+    await startBot();
+  }
+})();
