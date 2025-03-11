@@ -211,10 +211,12 @@ async function startBot() {
   try {
     logger.clear();
     logger.info();
+    console.log();
     logger.info("Application Started");
     console.log("FINTOPIO MINING BOT");
     console.log("AUTHOR : NOFAN RAMBE");
     console.log("WELCOME & ENJOY SIR!");
+    console.log();
     await startBot();
   } catch (error) {
     twist.clear();
