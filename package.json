@@ -5,7 +5,7 @@
   "description": "Fintopio Mining Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node app/index.js",
+    "start": "node scripts/start.js",
     "setup": "node scripts/setup.js",
     "dev": "node index.js",
     "test": "node test.js",
@@ -29,6 +29,7 @@
     "input": "^1.0.1",
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
     "socket.io-client": "^4.7.5",
     "telegram": "^2.22.2",
     "twisters": "^1.1.0",
