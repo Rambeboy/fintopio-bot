@@ -31,7 +31,7 @@ export class Telegram {
     try {
       let ctx = `Welcome to Bot!
 Lets getting started
-Your Session List:
+\nYour Session List :
 `;
       const accountList = Helper.getSession("accounts");
 
